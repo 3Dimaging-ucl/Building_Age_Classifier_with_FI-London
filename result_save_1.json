@@ -1,0 +1,656 @@
+[
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The house features elements characteristic of the interwar period in the UK, including red tiled roofing, bay windows with leaded glass, and a semi-detached design, suggesting a 1920-1939 age epoch. The surrounding context and architecture also indicate possible dates close to this period. The style is not distinctly modern, indicating it is less likely to be from after WWII, hence the next likely epochs are 1900-1919 and 1940-1959. Earlier periods such as 1880-1899 and 1860-1879 seem less likely but possible if the house underwent significant renovations.", 
+        "ID": 1
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1920-1939"], 
+        "reason": "The building in the image presents a modern architectural style with uniform window patterns, a clean brick facade, and a distinct upper portion with colored accents. This style is indicative of late 20th century to early 21st-century design. The building also appears to be well-maintained and modern, suggesting it is not very old. Although it is not ultra-modern to suggest it was built after 2020, it does not possess historical architectural features that would place it in the early or middle parts of the 20th century or before.", 
+        "ID": 2
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features a mock Tudor architectural style, often associated with suburban expansion in London during the late 19th and early 20th centuries; hence, it could have been constructed as part of the urban development during the late Victorian or Edwardian era. This style had a resurgence in popularity in the interwar period of the 1920s and 1930s, which also supports a possible construction date. Additionally, the building's good condition suggests it could be slightly more recent, hence the inclusion of the 1940s and 1950s in the estimate.", 
+        "ID": 3
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building presents a modern aesthetic with clean lines and a uniform use of materials typical of late 20th or early 21st century architecture. The window frames and glazing are contemporary, suggesting construction or significant renovation in the past few decades. There is no obvious historical detailing that would indicate an earlier construction period.", 
+        "ID": 4
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building in the image shows architectural characteristics of late 19th to early 20th century styles, such as the brickwork, the style of the windows, and the overall massing. Its utilitarian design suggests a timeframe between the late Victorian and early 20th century, possibly extending to the interwar period due to the lack of ornate decoration that became less common after World War I.", 
+        "ID": 5
+    },
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"],
+        "reason": "The building displays a modern architectural style with clean lines, large windows, and a facade that includes a mix of materials, which is indicative of contemporary design trends. The presence of scaffolding suggests recent construction work, possibly indicating the building is new or has undergone a renovation, supporting the likelihood of it being constructed in the 21st century. The \">2020\" epoch is the most probable, followed by \"2000-2019\" due to the building's modern appearance, with the subsequent epochs representing decreasingly likely time periods based on the design and condition of the building.",
+        "ID": 6
+    },
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features traditional design elements such as a pitched roof with clay tiles and a plastered exterior which is typical for houses built in the early 20th century. The style of the bay windows and residential scale suggest it could fall within the British interwar or late Edwardian period. However, the overall condition and additions like the modern security system might mislead to a later period; hence other nearby periods are included.", 
+        "ID": 7
+    }, 
+    {
+        "age": ["1980-1999", "2000-2019", "1960-1979", ">2020", "1940-1959"], 
+        "reason": "The building in the image has a modern commercial look with a simple and functional design, most indicative of styles common in the late 20th century. The use of metal cladding and a flat roof suggests it could belong to the late 20th century, potentially from the 1980s or 1990s, with a lesser likelihood of being constructed in the early 21st century. The overall condition and style do not suggest a pre-1960s origin, but it's feasible it could have been renovated or built between the 1960s and the present. The post-2020 probability is less likely due to the absence of very contemporary architectural features and signs of aging.", 
+        "ID": 8
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1919-1999", "2000-2019"], 
+        "reason": "The building's architecture suggests an early to mid-20th-century style, with its brickwork and design fitting into an interwar period aesthetic common in the 1920s and 1930s. The lack of ornamentation and the proportions also fit into styles that persisted into the 1940s and 1950s. While the building appears to have a more traditional design, the possibilities of minor renovations or restorations open up the later epochs as potential, albeit less likely.", 
+        "ID": 9
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", "1920-1939"], 
+        "reason": "The building in the image has a modern design with a flat fa\u00e7ade, strips of windows, and the use of brickwork combined with what appears to be metal or plastic detailing which is indicative of mid to late 20th century architecture. The style is not cutting edge or particularly innovative, which suggests it is not from the post-2000 era. The materials and the state of the building don't suggest it to be older than the mid 20th century either.", 
+        "ID": 10
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", ">2020"], 
+        "reason": "The building features a modernist architectural style which was popular in the post-war era, particularly the 1960s and 70s, thus making this period the most likely age epoch for the building. The design lacks the high-tech flair or contemporary materials that typify buildings from the 21st century, hence the later periods are considered less likely.", 
+        "ID": 11
+    }, 
+    {
+        "age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1920-1939"], 
+        "reason": "The building in the image has a modern architectural style with clean lines, large glass windows, and what appears to be relatively new construction materials. These features suggest it was built in the 21st century or late 20th century. The lack of weathering and the contemporary design lead to the first guess being from the 2000-2019 period or possibly post-2020, though the latter is less likely if the image was taken before April 2023. The next two epochs are included as less likely considerations due to the possibility of the building being an earlier example of modern design or having undergone extensive renovation, while the 1920-1939 period is the least likely but possible if the building underwent a major re-design.", 
+        "ID": 12
+    }, 
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The building in the image features modern architectural design elements such as a sleek, uniform facade, ample glass usage, and a refined modular aesthetic. These characteristics are indicative of contemporary construction, suggesting the building is most likely from the post-2020 era. However, in case it is from the end of the previous era, the next possibilities would include the period from 2000 to 2019, and subsequently, earlier modern periods as less likely options.", 
+        "ID": 13
+    }, 
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The architectural design of the building in the image, featuring a modern glass facade and contemporary steel structure, suggests it is a very recent construction. Such designs are commonly associated with the 21st century, hence the building is most likely to have been built after 2000, with the greatest probability being the most recent period of >2020. The earlier epochs are less likely but included for comprehensiveness in the unlikely event that the building was designed to appear more modern than it is.", 
+        "ID": 14
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", "1920-1939"], 
+        "reason": "The building in the image exhibits characteristics typical of mid-20th century architectural styles, including functional elements that suggest a modernist or brutalist design, which were prominent from the 1950s to the 1970s. The clean lines, lack of ornamental detail, and use of concrete are indicative of this era, although its relatively good condition might place it towards the later part of this period or suggest later renovation.", 
+        "ID": 15
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", "1920-1939"], 
+        "reason": "The building in the image has features characteristic of mid-20th century architecture, such as the simple brickwork, flat roofline, and the style of the window frames. It lacks any historic architectural details that would suggest the epochs before 1920, and it does not appear modern enough to be from the epochs after 2000. While the aesthetics of the facade could be from the late 1950s to the 1980s, 1960-1979 seems most likely given the design simplicity and the prevalent architectural trends of that period. The epochs 1980-1999 follow closely due to the potential for later renovations or styles that crossed decades.", 
+        "ID": 16}, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building in the image features a traditional red brick design with a gambrel roof, which is typical of the late 19th and early 20th centuries. The uniform brickwork and the style of windows also support this time frame. The presence of modern signage and alterations likely indicate renovations, but the core architecture suggests its origins are older.", 
+        "ID": 17
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features a combination of elements like the red brickwork, the pitched roof, and the bay windows with white frames that are characteristic of British housing styles in the early 20th century, particularly from the Arts and Crafts movement and interwar period suburban residential architecture.", 
+        "ID": 18
+    }, 
+    {
+        "age": ["1880-1899", "1900-1919", "1920-1939", "1860-1879", "1840-1859"], 
+        "reason": "The building features architectural elements common in late Victorian and Edwardian periods such as sash windows, detailed cornicing, and a more ornate central section which could indicate an attempt at distinguishing the building during that time. The overall structure and style suggest it was likely built or received its current facade in the late 19th or early 20th century.", 
+        "ID": 19
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features a red brick facade typical of late Victorian or Edwardian architecture with decorative elements like terracotta tiles, detailed window lintels, and sash windows, suggesting a construction date from the late 19th to early 20th century. The presence of bay windows and the overall style is common in suburban London expansion period buildings, between the late Victorian era and the interwar period.", 
+        "ID": 20
+    }, 
+    {
+        "age": ["1880-1899", "1900-1919", "1860-1879", "1920-1939", "1840-1859"], 
+        "reason": "The building has characteristics of Victorian architecture, such as elaborate stonework around the windows and a red brick facade with decorative patterns, which were prominent during the late 19th century. Its overall style does not match the more modern movements of the 20th century; hence the earlier epochs are considered more likely.", 
+        "ID": 21
+    }, 
+    {
+        "age": ["1960-1979", "1940-1959", "1980-1999", "1920-1939", "2000-2019"], 
+        "reason": "The building in the image showcases a mid-20th century architectural style with its utilitarian design, brickwork, and windows typical of post-war reconstruction, suggesting it's most likely from the 1960s-1970s timeframe. It could also be from the late 1940s to 1950s during the immediate post-war rebuilding. It's plausibly falling into the later part of the 20th century as well, suggesting the 1980s-1990s. The building does not exhibit characteristics of pre-WWII architecture, but a modernization effort could have altered its original appearance, hence the inclusion of the 1920-1939 span. Although it seems unlikely to be from the period of 2000-2019 due to the architectural style, it cannot be entirely ruled out without further context.", 
+        "ID": 22
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building in the image has a modern architectural style with clean lines, large windows, and the use of brick as a facade element, which suggests it could be from the late 20th or early 21st century. The absence of significant weathering or historical architectural details also implies it's relatively newer, rather than older.", 
+        "ID": 23
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", "2020", "1960-1979", "1940-1959"], 
+        "reason": "The architecture of the building suggests a modern design, with large pane glass windows and a contemporary facade without historical ornamentation. The aesthetic is consistent with late 20th century or early 21st century design, hence the epochs provided. There are no clear signs of the building being from the very latest era (>2020) or from mid-20th century periods like the 1940-1959 epoch, but those epochs are included due to the gradual development of architectural styles.", 
+        "ID": 24
+    }, 
+    {
+        "age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The building displays contemporary architectural features such as a predominantly glass facade, modular design, and a lack of ornamentation which suggests a late 20th century to 21st century construction. Its well-maintained appearance and modern materials, like the metal framing, suggest it could be from the 2000s or even more recent, but it does not have a futuristic design that would strongly suggest a post-2020 construction. The absence of architectural elements typical of pre-1980s design further supports this timeframe.", 
+        "ID": 25
+    }, 
+    {
+        "age": ["<1700", "1700-1749", "1750-1799", "1800-1819", "1820-1839"], 
+        "reason": "The building in the image has Gothic architectural features, such as pointed arches, ribbed vaults, and flying buttresses, which suggests a medieval or early modern epoch, possibly extending into the times of Gothic Revival. Since London has many churches and buildings from a wide range of historical periods, and the style suggests older rather than newer Gothic Revival, the prediction skews earlier, but includes the potential for it to be a later period's emulation of the earlier Gothic style.", 
+        "ID": 26
+    }, 
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1840-1859", "1820-1839"], 
+        "reason": "The building exhibits Gothic Revival architecture characteristics which were popular in the latter half of the 19th century; ornate stonework around the windows and terracotta facades suggest a style common in the Victorian era, typically ranging from 1837 to 1901. The level of detail and the condition of the building also support this timeframe.", 
+        "ID": 27
+    }, 
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1920-1939", "1840-1859"], 
+        "reason": "The building features intricate stonework, ornate facades and balconies wrought in a style that suggests a Victorian or Edwardian era of architecture, common in the late 19th to early 20th century. The rich decoration and grandeur typify the architectural styles of the late Victorian period, hence the epochs spanning from 1880 to 1919 are the most probable. Including slightly earlier and later periods accounts for architectural revivals or earlier starts to construction.", 
+        "ID": 28
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building in the image features modern architectural elements like the extensive use of glass for the facade, combined with contemporary signage and branding. The style suggests a postmodern design, common in the late 20th to early 21st century. It does not exhibit features typical of older architectural periods, hence the estimate leans towards the more recent decades.", 
+        "ID": 29
+    }, 
+    {
+        "age": ["1980-1999", "1960-1979", "2000-2019", "1940-1959", "1920-1939"], 
+        "reason": "The building in the image has features indicative of modernist architectural styles, such as the extensive use of glass and a lack of ornamentation, which suggests it could have been built between the 1960s and the 1990s. Given the condition and the style, the most likely period is from the late 20th century, although the possibility that it could be an early 21st-century building designed in a slightly earlier style cannot be entirely ruled out.", 
+        "ID": 30
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features a symmetrical facade with sash windows that are characteristic of late 19th to early 20th century British architecture, suggesting it may have been built or heavily rennovated during that period. The style is consistent with British urban residential designs commonly seen prior to World War II, with minimal ornamentation which suggests a functional approach that became more prevalent post World War I. No overt modern elements are visible that would suggest a post-1959 construction.", 
+        "ID": 31
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1840-1859"], 
+        "reason": "The building features a variety of architectural elements typical of the late Victorian and Edwardian eras, with its red brickwork, decorative terracotta bands, grand stone entrance, and classically inspired stone detailing around the windows and cornices, suggesting a construction date between the late 19th and early 20th centuries.", 
+        "ID": 32
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features red brickwork with traditional style sash windows, which suggest a construction date between late 19th to mid-20th century; these characteristics were common in British architecture during the late Victorian period through to the interwar period. The stone base layer and absence of more modern materials or design elements further narrow the age to a time before widespread post-war construction changes.", 
+        "ID": 33
+    }, 
+    {
+        "age": ["1820-1839", "1800-1819", "1840-1859", "1750-1799", "1700-1749"], 
+        "reason": "The building features neoclassical architectural elements such as a columned portico with Corinthian capitals, a pediment, and stone construction, which suggest it could have been constructed in the early 19th century when such styles were popular. These details point towards an age from the early to mid-1800s, but a broader range is given to account for possible earlier or later construction within the neoclassical trend.", 
+        "ID": 34
+    }, 
+    {
+        "age": ["1980-1999", "1960-1979", "2000-2019", "1940-1959", "1920-1939"], 
+        "reason": "The architecture of the building suggests a late 20th-century design, with its utilitarian brick facade and modern window frames that seem typical of post-war to late-century construction. The appearance does not match that of historical buildings from before the mid-20th century, and it seems too early in design for the 21st century.", 
+        "ID": 35
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1940-1959", "1860-1879"], 
+        "reason": "The building presents an industrial or utilitarian design typical of late 19th to early 20th century architecture. The brick construction with large, multi-pane windows and lack of ornate detailing suggests a functional purpose, leaning towards the Victorian or Edwardian periods. It does not have the modern glass or steel features of post-war buildings, which helps to narrow down the age.", 
+        "ID": 36
+    },
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1750-1799"], 
+        "reason": "The building in the image has architectural features like brick construction, white sash windows with glazing bars, and a generally Georgian aesthetic, which include elements common to the late Georgian and early Victorian periods. The flat, unpainted brick facade with contrasting red brick for window lintels is typical of the late 18th to early 19th century, thus suggesting the most probable age epoch as 1800-1819, with adjacent periods also possible.", 
+        "ID": 37
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1940-1959", "1860-1879"], 
+        "reason": "The building features a Victorian or Edwardian architectural style, including ornamental detailing around the windows and entrance, suggesting it was likely built in the late 19th or early 20th century. The preservation state and minor modern elements suggest it could be from a slightly later period as well.", 
+        "ID": 38
+    },
+    {
+        "age": ["1980-1999", "2000-2019", "1960-1979", ">2020", "1940-1959"],   
+        "reason": "The building in the image has a modernist architectural style with a strong use of bold geometric forms, large planes with minimal ornamentation, and the use of redbrick which suggests a post-war period construction. The style is indicative of late 20th century which would place it in the range of 1980-1999. The well-preserved state could suggest a later date, hence the inclusion of 2000-2019. Its design does not typify the characteristics common in the newest buildings post-2020 which are often more focused on glass and steel, sustainability, and organic forms. The 1960-1979 period is included due to the prevalence of modernist architecture during this time, although the building does not exhibit the more austere brutalist style common to that era. The 1940-1959 range is the least likely of the five but is included due to the continuity of modernist trends post WWII.",
+        "ID": 39
+    },   
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1920-1939", "1840-1859"], 
+        "reason": "The building features elements of Victorian architecture, such as the detailed brickwork, terracotta tiles, and ornate stone carvings, which are typical for the period of 1880-1899. The red brick and terracotta suggest a style that became prominent in the latter part of the 19th century, hence the epochs including 1860-1879 and 1900-1919 are also likely. The style appears less consistent with the architectural fashion of the interwar period (1920-1939), but that is included as a less probable option. The age epoch of 1840-1859 is considered the least probable of the five, given the more florid detailing that became popular in the latter half of the century.", "ID": 40}, {"age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1920-1939"], "reason": "The building features a modern architectural design with large glass paneling and a sleek metal framework, which are indicative of late 20th-century to 21st-century commercial architecture. The presence of contemporary signage and infrastructure also suggests a newer construction, while the absence of certain design elements common in pre-1980s buildings lowers the probability of earlier epochs.", 
+        "ID": 40
+    }, 
+    {
+        "age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1920-1939"], 
+        "reason": "The building features a modern architectural design with large glass paneling and a sleek metal framework, which are indicative of late 20th-century to 21st-century commercial architecture. The presence of contemporary signage and infrastructure also suggests a newer construction, while the absence of certain design elements common in pre-1980s buildings lowers the probability of earlier epochs.", 
+        "ID": 41
+    },
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1900-1919"], 
+        "reason": "The building features characteristics indicative of late Georgian architecture, visible in the symmetry of the windows, the size and design of the sash windows, and the overall simplicity of the design. This style was prominent towards the end of the 18th century and into the early 19th century. The adjacent building's Gothic revival elements suggest a diverse architectural period in the area, but given the primary building's features, it is most likely not to belong to the Victorian or later periods.", 
+        "ID": 42
+    }, 
+    {
+        "age": ["1800-1819", "1750-1799", "1820-1839", "1700-1749", "<1700"], 
+        "reason": "The building features a brick facade with multi-pane sash windows and a symmetrical design typical of Georgian architecture, which suggests it was built in the late 18th or early 19th century. Such characteristics align with the Georgian era, which spanned from 1714 to 1837.", "ID": 43}, {"age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], "reason": "The building appears to be a traditional London structure with features indicative of late 19th to early 20th-century architecture, such as the brickwork pattern, window design, and overall facade symmetry, although without more distinctive architectural details it is challenging to narrow down the era more precisely.", 
+        "ID": 43
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building appears to be a traditional London structure with features indicative of late 19th to early 20th-century architecture, such as the brickwork pattern, window design, and overall facade symmetry, although without more distinctive architectural details it is challenging to narrow down the era more precisely.", 
+        "ID": 44
+    }, 
+    {
+        "age": ["1920-1939", "1940-1959", "1900-1919", "1880-1899", "1860-1879"], 
+        "reason": "The building features stylistic elements consistent with late 19th-century or early 20th-century architecture, such as the brickwork and the uniform window design typical of the Victorian or Edwardian periods. The absence of ornate detailing suggests a utilitarian design that could place it in the post-Victorian era, likely between the 1920s and the 1950s.", 
+        "ID": 45
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building in the image features a modern architectural style with characteristics like large windows, uniform and clean lines, and the use of modern construction materials, which suggest it was likely built or extensively renovated in the late 20th or early 21st century. The absence of highly decorative elements and the sleek, functional form factor push the likely construction date towards the latter half of the 20th century or early 21st century. The design does not appear to fit the typical architectural details of pre-1940 buildings.", 
+        "ID": 46
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1860-1879"], 
+        "reason": "The building exhibits characteristics typical of late Georgian period architecture such as sash windows with glazing bars, a brick facade, and white-painted decorative cornicing and string courses. The Georgian era spanned from 1714 to 1837, and the features here suggest a late period within that era, or slightly after. The style remained influential into the early Victorian era, thus the epochs provided cover a range from late Georgian to early Victorian.", 
+        "ID": 47
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1750-1799"], 
+        "reason": "The building exhibits Georgian architectural features, which are typical of London townhouses from the late 18th to early 19th centuries. This includes the white-painted facade, sash windows, and the ironwork on the balcony, which often appeared in the Georgian period.", "ID": 48}, {"age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1860-1879"], "reason": "The building displays several features characteristic of Georgian architecture, such as the brickwork, sash windows, and the white stucco facade on a part of the building. It is typical for the late Georgian period, which would suggest it was built somewhere in the early 19th century, possibly extended into the Victorian era.", 
+        "ID": 48
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1860-1879"], 
+        "reason": "The building displays several features characteristic of Georgian architecture, such as the brickwork, sash windows, and the white stucco facade on a part of the building. It is typical for the late Georgian period, which would suggest it was built somewhere in the early 19th century, possibly extended into the Victorian era.", 
+        "ID": 49
+    },
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1840-1859", "1920-1939"], 
+        "reason": "The building in the image has architectural features consistent with Victorian or Edwardian styles, such as decorative parapets, elaborate window surrounds, and symmetrical facades. These styles were prevalent in the late 19th century and early 20th century, which makes the timeframe from 1880 to 1919 the most probable. The inclusion of slightly earlier and later epochs accounts for possible variations or renovations that may have occurred.", 
+        "ID": 50
+    }, 
+    {
+        "age": ["1920-1939", "1919-1919", "1940-1959", "1900-1919", "1880-1899"],
+        "reason": "The building features a classical red brick facade with large, symmetrically-arranged windows typical of British architecture in the late 19th to early 20th century; however, its overall style, with simplistic detailing and solid construction, suggests it likely dates from the 1920s to 1930s, a period of interwar construction which saw a continuation of earlier styles. The lack of ornate features also allows for the possibility of a post-war build in the 1940s or 1950s, trying to emulate earlier styles with simplified features.", 
+        "ID": 51
+    }, 
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The building in the image features a contemporary design with large windows, a clean rectangular shape, and what appears to be modern materials. The facade looks very new without any signs of weathering or aging, which suggests that it is a recent construction likely from after 2020. The lack of any historical architectural elements also points to a modern design, making recent timeframes the most probable. However, without excluding the possibility of late modern styles from the 2000s to the 1990s, I included earlier time frames as less likely alternatives.", 
+        "ID": 52
+    }, 
+    {
+        "age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1920-1939"], 
+        "reason": "The building exhibits a modern architectural style characterized by simple geometric forms, large windows, and a lack of ornamental detailing, typical of late 20th century and early 21st century design; the cleanliness of the facade and the contemporary look of the windows and balconies suggest a more recent construction, likely within the last two decades or possibly even newer, but the lack of weathering could also be due to good maintenance; thus, epochs from the late 20th century to the present are considered most probable, while retaining a broader range to account for preservation or renovation.", "ID": 53}, {"age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], "reason": "The building in the image features architectural styles consistent with the late Victorian and Edwardian eras, which suggest it could date back to the late 19th or early 20th century. The use of red brick, bay windows, and ornamental detailing are characteristic of this period, especially prevalent in London's residential architecture of that time.", 
+        "ID": 53
+    }, 
+
+    {   "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building in the image features architectural styles consistent with the late Victorian and Edwardian eras, which suggest it could date back to the late 19th or early 20th century. The use of red brick, bay windows, and ornamental detailing are characteristic of this period, especially prevalent in London's residential architecture of that time.", 
+        "ID": 54
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1910-1919", "2000-2019"], 
+        "reason": "The building features a neoclassical architectural design with a balanced, symmetrical facade and stone masonry which points towards an early 20th-century design, commonly seen in buildings from 1920-1939 or 1900-1919. However, the facade also looks quite clean and maintained, which could suggest a later renovation or reconstruction, so later periods have been included as less likely alternatives.", 
+        "ID": 55
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features a combination of red brickwork with stone detailing, typical of late Victorian or Edwardian periods, which would suggest a construction time around the turn of the 20th century. The style is not modern, and the facade's ornamental elements, including the arched entryway and the white stonework around windows and corners, are characteristic of styles before the mid-20th century.", 
+        "ID": 56
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1780-1899"], 
+        "reason": "The building features Georgian architectural characteristics such as brick facade, sash windows with glazing bars, and a symmetrical layout, which suggests it was built during the Georgian era, commonly ranging from 1714 to 1837.", 
+        "ID": 57
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1860-1879", "1840-1859"], 
+        "reason": "The building features a brick facade with a traditional London stock brick and architectural details consistent with late Victorian or Edwardian periods, with sash windows typical of the 19th to early 20th century. The building does not display modern construction techniques or materials that would place it in more recent epochs.", 
+        "ID": 58
+    },
+    {
+        "age": ["1800-1819", "1750-1799", "1820-1839", "1700-1749", "<1700"],
+        "reason": "The building features multi-pane sash windows, a brick facade, and a uniform, symmetrical design which are characteristic of Georgian architecture styles that were predominant during the late 18th and early 19th centuries. The white cornicing and the fanlight above the doorway further support the Georgian era aesthetics, placing the building most likely within the late 1700s to early 1800s.",
+        "ID": 59
+    },
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1750-1799", "1840-1859"], 
+        "reason": "The building in the image features architectural elements such as symmetrical windows, a pediment, and classical proportions that are characteristic of the late Georgian period in London, which spans from the late 18th century to the early 19th century. The use of these classical design elements suggests that the building is most likely from the late Georgian or early Victorian era.", 
+        "ID": 60
+    }, 
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The building features modern architectural elements such as a high-density layout, extensive use of glass for balconies, and a contemporary aesthetic in its facade treatment, suggesting it is a recent development. The design and materials are indicative of 21st-century trends, and such residential buildings have been commonly constructed in the greater London area during the late 20th and early 21st centuries.", 
+        "ID": 61
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building has a modern architectural style, with large windows and a minimalistic facade characteristic of late 20th or early 21st-century developments. The clean lines, uniform windows without classic styling, and materials suggest a post-modern era, likely built after the 1980s, but it does not have the ultra-modern characteristics of architecture developed after 2020. It's not canonic of the brutalist style that might place it squarely in the 1960-1979 era. Earlier epochs are unlikely given the design and materials.", 
+        "ID": 62
+    },
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"],
+        "reason": "The building in the image appears modern with a contemporary design that utilizes industrial materials and large printed text which is typical of very recent constructions or modern refurbishments, likely indicating that it was either built or significantly modified in the 21st century.",
+        "ID": 63
+    },
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The building features a contemporary architectural style with modern materials, like glass and colored panels that suggest a recent construction. The design is indicative of trends commonly seen in buildings from the 21st century. The presence of a Novotel, which commonly inhabits newer buildings for business and tourism purposes, supports this suggestion. While it's difficult to pinpoint the exact year without more context, it is less likely to be from eras with distinguishable architectural styles that don\u2019t match this building's aesthetics.", 
+        "ID": 64
+    }, 
+    {
+        "age": ["1960-1979", "1940-1959", "1980-1999", "2000-2019", ">2020"], 
+        "reason": "The building in the image presents a mid-century modern architectural style that was prevalent in the 1960s and 1970s. The use of uniform, repeated window patterns and the simple, functional design are indicative of this era. Although some refurbishment may have occurred, there are no distinct signs of contemporary design elements that would suggest it was built after 2000.", 
+        "ID": 65
+    }, 
+    {   
+        "age": ["1960-1979", "1940-1959", "1980-1999", "1920-1939", "2000-2019"], 
+        "reason": "The building in the image features design elements such as large windows with metal frames, a flat roof, and an emphasis on horizontal lines, which are characteristic of mid-20th century architecture. It most closely resembles the Brutalist and Modernist styles that were prevalent in the 1960s and 1970s, thus making this epoch most likely. The use of brickwork and the style of the windows also hints at the possibility of it being from the late 1940s to 1950s post-war period. The building's condition and lack of more contemporary design elements make it less likely to be from the late 20th to early 21st century.", 
+        "ID": 66
+    }, 
+    {   
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1860-1879", "1840-1859"], 
+        "reason": "The building features a classic architectural style with Georgian elements, which suggests it could have been built in the late 19th or early 20th century. The sash windows, stucco facade, and decorative cornicing are characteristic of styles that were popular during these times. However, given the well-preserved state and lack of visible aging, it could have also been constructed or renovated later, closer to the early 20th century.", 
+        "ID": 67
+    }, 
+    {   
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features are consistent with architectural elements from the late 19th to early 20th centuries, such as the tall windows with arches, brickwork with patterns, and stone detailing. It doesn't exhibit modern construction styles hence the prediction excludes more recent epochs.", 
+        "ID": 68
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features a yellow brick facade with white trim around the windows and detailing, such as the cornices, which is characteristic of late Victorian to Edwardian period styles that were prominent between the late 19th and early 20th centuries. The dormer windows and roof style also suggest a pre-World War I era, although the building may have undergone renovations which can account for elements that appear to be from later periods.", 
+        "ID": 69
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1860-1879", "1940-1959"], 
+        "reason": "The building in the image features elements of Georgian or early Victorian architecture, such as sash windows, decorative ironwork on the balconies, and stucco fa\u00e7ade, which are typical for periods prior to the 20th century. However, its remarkable condition suggests it could be from a later period or it has been renovated. Therefore, the time frames provided are ordered based on architectural style significance with a span to account for potential later renovations or developments.", 
+        "ID": 70
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", ">2020"], 
+        "reason": "The building features a mid-20th century modernist architectural style, with plain brickwork, simple geometric shapes and large windows that suggest a post-war design. The lack of ornamentation and the utilitarian design are typical of the 1960s to 1970s. However, it could also be from the surrounding decades given London's varied architectural evolutions.", 
+        "ID": 71
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features strong brickwork with a style that suggests late Victorian or Edwardian periods, which is typically found in buildings from the late 19th to early 20th century. The window design and decorative elements above the windows support this range as well. Latest renovations or additions could account for features from the mid 20th century.", 
+        "ID": 72
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features a traditional brick fa\u00e7ade typical of the late 19th and early 20th centuries, with sash windows and a lack of ornamentation that suggests a utilitarian function possibly prior to the modernist movements, indicating a likely construction date between the late 1800s and the early 1900s. The signage style and typography also hint towards the early 20th century.", 
+        "ID": 73
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1750-1799"], 
+        "reason": "The building features a Georgian architectural style, which suggests it was likely built in the late 18th century or early 19th century. Characteristics including the sash windows with multiple panes, brick construction, and proportionate spacing of windows and doors align with Georgian design prevalent from approximately 1714 to 1830. The lack of overt modern features and the weathering of the materials further support this estimation.", 
+        "ID": 74
+    },
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"],
+        "reason": "The building in the image shows a very modern architectural style consistent with contemporary design trends. Features such as large, frameless windows with minimal mullions, clean lines, and a lack of ornamental detailing suggest a recent construction period. The materials such as the uniform stone cladding and emphasis on glass also align with modern building practices. Based on these observations, the building is most likely constructed in the ">2020" period but could also potentially align with the latter part of the "2000-2019" range. While less likely, given the rapid evolution of architectural trends, the building could hypothetically fall into the \"1980-1999,\" \"1960-1979,\" or \"1940-1959\" periods if it was avant-garde for its time, but this would be atypical for those eras.",
+        "ID": 75
+    },
+    {
+        "age": [">2020", "2000-2019", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The building in the image has a modern architectural style with large glass panels and a simplistic, clean design indicative of contemporary trends. The materials and overall aesthetic suggest it was built in the 21st century, hence the most probable age epoch is after 2020, followed by late 20th to early 21st century periods, as modern design principles have been influential since around the 1980s.", 
+        "ID": 76
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1780-1799", "1860-1879"], 
+        "reason": "The building in the image shows Georgian architectural features, such as sash windows and a brick facade with symmetrical proportions, commonly found in London architecture from the late 18th to early 19th century. The window style and building symmetry suggest an era between late Georgian and early Victorian, therefore the guessed age epochs are ordered around that time frame.", 
+        "ID": 77
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1860-1879", "1840-1859"], 
+        "reason": "The building in the image appears to have Victorian or Edwardian architectural characteristics common in London, such as brickwork, sash windows, and the overall facade design. This style was prevalent from the late 19th century to the early 20th century, which is why these epochs are listed in descending order of probability.", 
+        "ID": 78
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features an Art Deco style with geometric shapes and stylized detailing around the windows which is typical of the 1920s and 1930s. The decorative elements and the general building structure suggest it could be from the early 20th century. The maintenance and possible renovations make it difficult to assign an exact period, thus including a range from late 19th to mid 20th century.", 
+        "ID": 79
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1940-1959", "1860-1879"], 
+        "reason": "The main building has architectural features such as brickwork, window styles, and roof dormers that are characteristic of late 19th to early 20th century British architecture. The detailing around windows and the general fa\u00e7ade layout suggest it could possibly be from the Edwardian era (1901\u20131910) or the late Victorian era. The building does not exhibit modern materials or design practices that would indicate a more recent construction. However, the building could have also undergone renovations, making it challenging to ascertain the exact age without further historical data.", 
+        "ID": 80
+    }, 
+    {
+        "age": ["1980-1999", "2000-2019", "1960-1979", "2020", "1940-1959"], 
+        "reason": "The building in the image displays a modern architectural style with a combination of large, regular windows and robust, uniform facade materials like concrete or stone cladding, which suggests it is from the late 20th century. These design elements were prominent in the 1980s and 1990s, making this period the most likely. The absence of very contemporary elements and sustainability features makes the post-2020 period less probable. However, since architectural styles can vary and some buildings are updated, adjacent time periods are also included in the prediction.", 
+        "ID": 81
+    }, 
+    {
+        "age": ["1880-1899", "1900-1919", "1860-1879", "1920-1939", "1840-1859"], 
+        "reason": "The building features a Victorian style with sash windows, brickwork with contrasting colors around the window frames, and ornate details on the facade. These architectural details suggest the building was likely erected towards the end of the 19th century or the beginning of the 20th century, which aligns with the Victorian or Edwardian period. The ranking order starts with the most probable epoch based on these architectural styles.", 
+        "ID": 82
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features a design typical of the late Victorian to Edwardian era with its red brick facade, symmetrical window design, and terraced structure, which suggests it could be from the late 19th to early 20th century. The level of preservation and lack of modern features such as glass curtain walls makes recent epochs less likely.", 
+        "ID": 83
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building features a modern design with a clean and minimalist facade which is indicative of contemporary architectural trends. The windows are large and regularly spaced, suggesting a design priority on natural light common in buildings from the late 20th century onwards. The lack of ornamental detailing and the use of what appears to be metal cladding or similar materials at the base points to modern construction methods typically used after the 1980s. Additionally, the overall condition of the building suggests it has not been exposed to prolonged weathering, which would be more indicative of an older structure.", 
+        "ID": 84
+    }, 
+    {
+        "age": ["1880-1899", "1900-1919", "1860-1879", "1920-1939", "1840-1859"], 
+        "reason": "The building features classic Victorian or Edwardian architectural elements such as the red brickwork, white stone window dressings, and ornate cornicing which suggest it was likely constructed in the late 19th or early 20th century, common in London during the Victorian and Edwardian periods.", 
+        "ID": 85
+    }, 
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1920-1939", "1840-1859"], 
+        "reason": "The building features classic Victorian architecture commonly seen in London from the late 19th to early 20th centuries, with decorative brickwork, terracotta tiles, white stonework around windows, and a detailed cornice design. These elements suggest a construction date likely in the late Victorian period, with the possibility of early Edwardian modifications.", 
+        "ID": 86
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", "1920-1939"], 
+        "reason": "The architectural style of the building, with its plain facade, large windows, and use of concrete and glass with less ornamental detail, suggests a mid-20th century modernist design, which is common from the 1960s to 1970s. The slight wear and aging of the structure allow for the possibility of it being from the late 1950s up to the late 1990s. Although it could have been refurbished in the 2000s, the design does not reflect the more contemporary styles that would suggest it was built after 2000.", 
+        "ID": 87
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1860-1879", "1920-1939", "1940-1959"], 
+        "reason": "The building exhibits features typical of late Victorian or Edwardian eras, such as red brickwork with detailed patterns, sash windows with segmental arches, and decorative terracotta elements. The fa\u00e7ade arrangement and overall style suggest it was likely built at the turn of the 20th century, with potential subsequent modifications.", 
+        "ID": 88
+    }, 
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1840-1859", "1820-1839"], 
+        "reason": "The building displays a date marking of 1879, suggesting construction during that year. The architectural style, with red brickwork and white ornate decorations, is characteristic of Victorian architecture prevalent in the second half of the 19th century. This places the building squarely in the 1880-1899 epoch as the most likely, followed by periods immediately before and after as secondary estimates, due to possible earlier commencement or later completion of the building.", 
+        "ID": 89
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1860-1879"], 
+        "reason": "The building features a typical Georgian architectural style, which suggests it might have been built anytime during the late 18th century to the mid-19th century. Prominent characteristics include the sash windows, the red brick facade, and the white decorative elements above the ground floor windows and doorway, which are indicative of Georgian townhouses in London.", 
+        "ID": 90
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1860-1879", "1840-1859"], 
+        "reason": "The building features characteristics of late 19th to early 20th century London architecture, such as the red brickwork with contrasting brick lintels above the windows, traditional sash windows, and stone detailing around the entrance. These elements were prevalent in the Victorian and Edwardian eras, hence the estimated age epochs.", 
+        "ID": 91
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", ">2020"], 
+        "reason": "The building features a modernist architectural style with brick facade and simple geometric forms typical of the mid-20th century, suggesting that it was likely built between 1960 and 1979. The design does not quite fit the more recent architectural trends seen after 2000, and it lacks the historical features of buildings constructed prior to 1940.", 
+        "ID": 92
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building in the image has a modern design with a clean red brick facade, large windows with what appears to be metal or UPVC frames, and lacks ornamentation which is common in more contemporary architecture. These elements suggest that the building is likely from the late 20th or early 21st century.", 
+        "ID": 93
+    }, 
+    {
+        "age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1920-1939"], 
+        "reason": "The building appears to be older, possibly Victorian, as indicated by the brickwork and window style, but it has a modern addition on top with what seems to be contemporary windows and a metallic structure, suggesting a recent renovation or addition, leading to a blend of epochs.", 
+        "ID": 94
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1780-1799"], 
+        "reason": "Based on the architectural features observable in the photo, such as the brickwork, the style of the windows, and the overall facade, the building resembles Georgian or early Victorian architecture. In London, these styles were prevalent during the late 18th century and the first half of the 19th century, which makes these epochs the most likely for the building's construction. The exact age is difficult to determine without more context or historical records, but the style is consistent with these periods.", 
+        "ID": 95
+    }, 
+    {
+        "age": ["1960-1979", "1940-1959", "1980-1999", "1920-1939", "2000-2019"], 
+        "reason": "The building has a utilitarian and somewhat dated architectural style, with uniform window designs and red brickwork that suggest post-war construction, typical of the mid-20th century. While it lacks the ornate detailing of earlier periods, it does not possess the more modern materials and design elements often seen in buildings constructed after 2000; hence, the 1960-1979 era is the most probable, followed by the adjacent periods.", 
+        "ID": 96
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1750-1799"], 
+        "reason": "The building features Georgian architectural elements such as a symmetrical facade, sash windows, and a brick exterior. These features were prevalent in the late 18th to early 19th centuries, which suggests that the building could have been constructed in the Georgian era. Also, the design and materials fit well within the typical London architectural style from this period.", 
+        "ID": 97
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1860-1879"], 
+        "reason": "The building in the image shows characteristics typical of the Georgian period such as the brick facade, sash windows with smaller panes of glass, and symmetry. This style was common from the late 18th century to the early 19th century. The presence of a fanlight above the front door and the overall proportion of the townhouse also support this estimation.", 
+        "ID": 98
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1750-1799", "1840-1859", "1780-1799"], 
+        "reason": "The building features Georgian architectural elements such as symmetrical design, sash windows with glazing bars, and a brick facade with contrasting brickwork around windows and doors. These characteristics are indicative of late 18th to early 19th century construction, before the Victorian era, making the early epochs listed more probable.", 
+        "ID": 99
+    },
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"],
+        "reason": "The building features a red brick façade with traditional stone dressings around the windows and a symmetrical design, which is characteristic of late 19th to early 20th century architecture. The clean lines and lack of excessive ornamentation suggest it could be from the early 20th century, thus the range from late Victorian to the interwar period seems most probable.",
+        "ID": 100
+    },
+    {
+        "age": ["1800-1819", "1820-1839", "1750-1799", "1840-1859", "1780-1799"],
+        "reason": "The building presents architectural features that are typical of Georgian period constructions such as sash windows with smaller window panes, a symmetrical facade, and brickwork that is consistent with late Georgian style, indicating it was likely built in the late 18th or early 19th century. Newer elements like the roof windows may suggest later modifications, but the principal structure seems to date from the aforementioned periods.",
+        "ID": 101
+    },
+    {
+        "age": ["1960-1979", "1940-1959", "1980-1999", "1920-1939", "2000-2019"], 
+        "reason": "The building in the image has a mid-century modern aesthetic with clean lines and a simple brick facade common in the post-war period. The uniformity of windows and balconies suggests a design era between the 1960s and 1980s. The building doesn't feature the glass and steel elements common in more contemporary architecture, but also doesn't have the ornate detailing typical of pre-1940 structures.", 
+        "ID": 102
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1860-1879"], 
+        "reason": "The building features a classical architectural style with elements such as the pediment, pilasters, and what appears to be a symmetrical facade, which are characteristic of neo-classical and Georgian architecture prevalent from the late 18th to mid-19th century. The overall simplicity, coupled with the state of mild wear and aging, also supports this estimation.", 
+        "ID": 103
+    }, 
+    {
+        "age": ["1980-1999", "2000-2019", "1960-1979", "2020", "1940-1959"], 
+        "reason": "The building features modern design elements such as a clean brick facade, large windows, and a lack of ornate decoration which are indicative of late 20th century to early 21st-century architecture. The absence of extremely contemporary features or a dated post-war appearance suggests it is less likely to be from the very latest epoch or from the mid-20th century.", 
+        "ID": 104
+    }, 
+    {
+        "age": ["1960-1979", "1980-1999", "1940-1959", "2000-2019", "1920-1939"], 
+        "reason": "The building in the image appears to feature a mid-century modern architectural style with a simple and functional design, typical of structures built in the 1960s and 1970s. The facade has a grid-like pattern with a large number of windows, and the use of concrete is also indicative of mid-20th-century construction. While the building may have been refurbished, its overall style and construction techniques suggest it dates from the mid to late 20th century.", 
+        "ID": 105
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1750-1799"], 
+        "reason": "The building in the image shows architectural characteristics common in Georgian-era constructions, such as the brick facade, sash windows with glazing bars, and white window lintels. The proportions and style suggest a date in the late 18th to early 19th century, making the 1800-1819 age epoch most probable. Subsequent epochs are listed to account for possible earlier or slightly later constructions.", 
+        "ID": 106
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1780-1799", "1860-1879"], 
+        "reason": "The building in the photo features Georgian architectural elements such as sash windows with smaller panes, brickwork with white detailing, and a symmetry that is typical of the late Georgian period, suggesting it was likely built in the early 19th century.", 
+        "ID": 107
+    }, 
+    {
+        "age": ["1980-1999", "1960-1979", "2000-2019", "1940-1959", "1920-1939"], 
+        "reason": "The building has a modern design but not contemporary, with features like large windows and uniform, clean lines that suggest a late 20th-century style, likely between the 1980s and 1990s. The use of brick as the primary facade material along with the window design provides a feel similar to post-war architecture, spanning from the 1960s to the 1990s. It does not have the ultra-modern features of the 21st century, hence the earlier epochs are ranked higher.", 
+        "ID": 108
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building appears to have characteristics of Edwardian architecture, which would place it in the early 20th century, specifically between 1900-1919. These features include the use of stone, elaborate detailing around windows, and balustraded balconies. The overall style doesn't quite match with the highly decorative Victorian architecture from the late 19th century, nor does it have the austerity and simpler lines often associated with the inter-war period (1920-1939). It's less likely to be from the Georgian era (pre-1837) or post-war period (1940-1959) where architectural styles would have been considerably different.", 
+        "ID": 109
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1919-1919", "1880-1899"], 
+        "reason": "The building in the image shows a style that is characteristic of late 19th to early 20th-century architecture, with its stone fa\u00e7ade and symmetrical, formal window arrangements. The horizontal banding and the grand, somewhat austere style suggest an Art Deco influence, placing it likely between the 1920s and 1930s. However, without excluding the possibility of later stylistic revivals or earlier periods that may have influenced the design, a safe prediction also includes the turn of the century and the post-war era.", 
+        "ID": 110
+    }, 
+    {
+        "age": ["1700-1749", "1750-1799", "1660-1699", "1600-1659", "1800-1819"], 
+        "reason": "The building has features such as regular symmetry, use of arched windows, and a classical architectural influence, common in Georgian architecture which suggests it is from the 1700-1749 period. However, considering potential renovations or earlier foundations, a broader range is given to account for architectural overlap or changes.", 
+        "ID": 111
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building displays architectural features consistent with late 19th to early 20th century styles in London, such as the brickwork, windows, and overall structure. While exact dating is difficult without further historical context, the appearance suggests it might have been built or undergone significant modifications around the turn of the century, hence the range provided.", 
+        "ID": 112
+    },
+    {
+        "age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1920-1939"],
+        "reason": "The building displays a modern architectural style with large glass windows, a characteristic of late 20th-century to contemporary architecture. Its condition and materials suggest it was likely constructed or renovated after 1980, with the highest probability being between 2000-2019 or post-2020 due to its maintained, contemporary appearance. Earlier epochs are less likely but included to account for the possibility of a style inspired by more modern trends or renovations.",
+        "ID": 113
+    },
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1750-1799"], 
+        "reason": "The building features Georgian architectural styles, noticeable through the symmetry of the front facade, sash windows with glazing bars, and the brick construction. The paneled front door with a decorative transom (fanlight) above is typical of late Georgian period designs, suggesting that the building could very well date from the late 18th to early 19th century.", 
+        "ID": 114
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The architecture of the building suggests late Victorian or Edwardian era design, with features typical for London buildings from the turn of the 20th century such as red brickwork, stone detailing, and sash windows. The style does not have the modern elements of post-war constructions, nor the ornate detailing typical of the pre-Victorian era, thus placing it most likely between 1900 and 1919, with the surrounding epochs as less likely alternatives.", 
+        "ID": 115
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1880-1899", "1940-1959", "1860-1879"], 
+        "reason": "The building features a brick facade with decorative patterns, common in late 19th to early 20th century architecture. The sash windows and lack of high modern materials point away from more recent architectural eras. The overall style is indicative of late Victorian or Edwardian periods, which could range from the late 1800s to the early 1900s. Post-war styles (1940-1959) might be similar but generally have a more utilitarian look.", 
+        "ID": 116
+    }, 
+    {
+        "age": ["1960-1979", "1940-1959", "1980-1999", "1920-1939", "2000-2019"], 
+        "reason": "The building's design features, such as the simple, functional facade, the use of concrete and brick, and the inclusion of balconies, are indicative of post-war construction styles commonly seen between the 1960s and 1970s. The absence of highly ornate design elements or intricate architectural forms suggests it is not from earlier epochs like Victorian or Edwardian times. Although refurbishments could have occurred, the core structure likely dates to the mid-20th century, hence the order of the age epochs.", 
+        "ID": 117
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1750-1799"], 
+        "reason": "The building exhibits Georgian architectural traits, with sash windows featuring small panes, brickwork facades, and a symmetrical design which are characteristic of late 18th-century to early 19th-century buildings.", 
+        "ID": 118
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features a combination of brickwork and stonework typical of late Victorian or Edwardian eras, with ornate detailing around the entrance that suggests a construction time towards the end of the 19th century or early 20th century. The sash windows and their arrangement are also characteristic of this period. While it may have undergone renovation, the core architectural elements suggest these age epochs.", 
+        "ID": 119
+    }, 
+    {
+        "age": ["1940-1959", "1960-1979", "1920-1939", "1900-1919", "1980-1999"], 
+        "reason": "The building has features indicative of post-war architecture such as simplistic brickwork, the use of balconies, and a utilitarian design. It does not possess the ornate details common in Victorian or early 20th-century buildings, nor does it have the glass and steel features typical of more modern constructions, placing it most likely in the post-war era between the 1940s and 1970s, with a slight possibility of extending into the late 20th century.", 
+        "ID": 120
+    }, 
+    {
+        "age": ["2000-2019", "1980-1999", ">2020", "1960-1979", "1940-1959"], 
+        "reason": "The building features a modern design with large windows and what appears to be a curtain wall system typical of late 20th-century to early 21st-century architecture. The use of cladding or stone veneer and its overall aesthetic suggest it was likely built or significantly renovated between 1980 and 2019. Its style does not match the more historical epochs, and there are no obvious signs of the very latest architectural trends that would firmly place it in the post-2020 category.", 
+        "ID": 121
+    }, 
+    {
+        "age": ["2000-2019", ">2020", "1980-1999", "1960-1979", "1940-1959"], 
+        "reason": "The building features a modern design with large glass windows, which suggests a contemporary architectural style. This type of facade and undulating glass is commonly associated with late 20th to early 21st-century designs. The overall condition of the building and the crispness of the materials suggest it's relatively new, probably constructed in the last two decades, but not brand new, thus less likely to be after 2020.", 
+        "ID": 122
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building features neoclassical architectural elements such as tall columns with classical capitals, symmetrical windows, and a stone facade which are indicative of styles that were popular in the late 19th and early 20th centuries. The design suggests it may have been built or designed in the period around the 1920s to 1930s, which was a time when such grand, institutional architecture was common in London. It is less likely to be from the immediate post-war era due to the less ornate style that became prevalent then, and it is not in line with the styles before the late 1800s or the more modern styles post-1960.", 
+        "ID": 123
+    }, 
+    {
+        "age": ["1900-1919", "1880-1899", "1920-1939", "1860-1879", "1940-1959"], 
+        "reason": "The building features a classical architectural style with sash windows and decorative cornicing typical of late 19th to early 20th century design. The lack of overtly modern elements suggests it is not from a more recent construction period.", 
+        "ID": 124
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1780-1799", "1840-1859", "1860-1879"], 
+        "reason": "The building in the image features characteristics typical of Georgian architecture, such as the symmetrical design, sash windows, and brick construction, suggesting it was built sometime during the late 18th to mid-19th century. These architectural details were prevalent during the Georgian and early Victorian eras, which would be consistent with the periods suggested.", 
+        "ID": 125
+    }, 
+    {
+        "age": ["1800-1819", "1820-1839", "1840-1859", "1750-1799", "1860-1879"], 
+        "reason": "The building features neoclassical architectural elements such as the symmetrical window arrangement, the pilasters, and the decorated cornice, often associated with Georgian or early Victorian styles prevalent from the late 18th to mid-19th centuries. The inscription on the building, while not a definitive indicator, suggests it may have been established or occupied by an institution of some historical significance, which may align with these eras.", 
+        "ID": 126
+    }, 
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1920-1939", "1840-1859"], 
+        "reason": "The building in the image features a classic Victorian or Georgian style common in London, with sash windows, cast-iron railings on the balcony, and detailed cornicing above the windows, which are characteristic of the late 19th century to early 20th century. While it seems well-maintained or restored, these architectural elements suggest it is likely from the late Victorian or early Edwardian period.", 
+        "ID": 127
+    },
+    {
+        "age": ["1860-1879", "1880-1899", "1840-1859", "1820-1839", "1900-1919"],
+        "reason": "The building features indicate a style that is consistent with typical London construction in the late 19th century. The brickwork, sash windows, cornicing, and cast-iron balcony railings are all indicative of Victorian architecture, which would place the building in the range of the late 1800s to early 1900s. However, modifications over time could suggest a slightly wider date range.",
+        "ID": 128
+    },
+    {
+        "age": ["1800-1819", "1820-1839", "1750-1799", "1780-1799", "1900-1919"], 
+        "reason": "The building exhibits Georgian architectural features, such as the brickwork, symmetrically aligned windows, and white sash windows, commonly found in the late 18th to early 19th centuries. The rounded archway above the door is also typical of the period. The overall style does not appear to fit the Victorian or later periods.", 
+        "ID": 129
+    }, 
+    {
+        "age": ["1920-1939", "1900-1919", "1940-1959", "1880-1899", "1860-1879"], 
+        "reason": "The building in the image features architectural characteristics indicative of London styles from the late 19th to mid 20th century. It has a classical composition with sash windows and a white painted facade, which were common between the Victorian era and the pre-war period. The lack of ornate detailing suggests a simpler style that became more prevalent in the post-Victorian era, leading to the selection of these age epochs as the most likely.", 
+        "ID": 130
+    }, 
+    {
+        "age": ["1880-1899", "1860-1879", "1900-1919", "1920-1939", "1840-1859"], 
+        "reason": "The building features Victorian-style architecture, which is indicated by its ornate cornicing, sash windows, and stuccoed facade. Such styles were prevalent in the late 19th to early 20th century. While the ground floor has been modernized likely for commercial use, the upper floors reflect the historical elements typical of the mentioned periods.", 
+        "ID": 131
+    }
+]
