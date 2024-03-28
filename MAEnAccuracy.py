@@ -13,7 +13,6 @@ def load_age_epochs(Data, Key_name):
         Age_Epochs.append(i[Key_name])
     return Age_Epochs
 
-
 def class_labels():
     classes = [
         '<1700',
@@ -45,33 +44,36 @@ def convert_to_mid_year(year_range_str):
         start_year, end_year = map(int, year_range_str.split('-'))
         return (start_year + end_year) / 2
 
-def calculate_accuracy_per_class_and_total(ground_truth, predicted_results, classes):
-    mid_years_ground_truth = [convert_to_mid_year(year_range) for year_range in ground_truth]
-    mid_years_predicted_results = [convert_to_mid_year(year_range) for year_range in predicted_results]
-    mid_years_clasess = [convert_to_mid_year(year_range) for year_range in classes]
+# def calculate_accuracy_per_class_and_total(ground_truth, predicted_results, classes):
+#     mid_years_ground_truth = [convert_to_mid_year(year_range) for year_range in ground_truth]
+#     mid_years_predicted_results = [convert_to_mid_year(year_range) for year_range in predicted_results]
+#     mid_years_clasess = [convert_to_mid_year(year_range) for year_range in classes]
 
-    total_correct_predictions = 0
-    total_predictions = len(mid_years_ground_truth)
+#     total_correct_predictions = 0
+#     total_predictions = len(mid_years_ground_truth)
     
-    accuracy_per_class = dict.fromkeys(mid_years_clasess, 0)
-    count_per_class = dict.fromkeys(mid_years_clasess, 0)
+#     accuracy_per_class = dict.fromkeys(mid_years_clasess, 0)
+#     count_per_class = dict.fromkeys(mid_years_clasess, 0)
     
-    for gt, pred in zip(mid_years_ground_truth, mid_years_predicted_results):
-        if gt == pred:
-            total_correct_predictions += 1
-            accuracy_per_class[gt] += 1
-        count_per_class[gt] += 1
+#     for gt, pred in zip(mid_years_ground_truth, mid_years_predicted_results):
+#         if gt == pred:
+#             total_correct_predictions += 1
+#             accuracy_per_class[gt] += 1
+#         count_per_class[gt] += 1
     
-    for cls in mid_years_clasess:
-        if count_per_class[cls] > 0:
-            accuracy_per_class[cls] /= count_per_class[cls]
-        else:
-            accuracy_per_class[cls] = None 
+#     for cls in mid_years_clasess:
+#         if count_per_class[cls] > 0:
+#             accuracy_per_class[cls] /= count_per_class[cls]
+#         else:
+#             accuracy_per_class[cls] = None 
 
-    total_accuracy = total_correct_predictions / total_predictions
+#     total_accuracy = total_correct_predictions / total_predictions
     
-    return accuracy_per_class, total_accuracy
+#     return accuracy_per_class, total_accuracy
+    
 
+
+################### Code loading ###########################
 classes = class_labels()
 true_data = load_json("./FIL/Building_Attribute.json")['Data']
 pred_result = load_json("./predicted_result_processed.json")
@@ -79,34 +81,53 @@ ground_truth = load_age_epochs(true_data, "Age Epoch")
 pred_labels = load_age_epochs(pred_result, "age")
 
 
-
-label_to_int = {label: index for index, label in enumerate(classes)}
-
-encoded_ground_truth = [label_to_int[label] for label in ground_truth]
-encoded_predicted_results = [label_to_int[label] for label in pred_labels]
-
-
-# report = classification_report(encoded_ground_truth, encoded_predicted_results, labels=range(len(classes)), target_names=classes, zero_division=0, output_dict=True)
-
-# print(report)
+################### Mid-year ###########################
+mid_years_ground_truth = [convert_to_mid_year(year_range) for year_range in ground_truth]
+mid_years_predicted_results = [convert_to_mid_year(year_range) for year_range in pred_labels]
+mid_years_clasess = [convert_to_mid_year(year_range) for year_range in classes]
 
 
-# for label in classes:
-#     precision = report[label]['precision'] * 100 
-#     recall = report[label]['recall'] * 100 
-#     f1_score = report[label]['f1-score'] * 100 
-#     print(f"{label}&{precision:.2f}&{recall:.2f}&{f1_score:.2f}&0\\\\")
+MAE = {cls: [] for cls in mid_years_clasess} 
+
+for gt, pred in zip(mid_years_ground_truth, mid_years_predicted_results):
+    MAE[gt].append((gt-pred)/10)
+
+average_error = 0
+for key, value in MAE.items():
+    total_error = 0
+    for error in value:
+        total_error += error
+        average_error += error
+    print(f"{key}: {-total_error/len(value)}")
+
+print(f"{-average_error/131}")
+
+# print(MAE)
+    # if gt == pred:
+    #     total_correct_predictions += 1
+    #     accuracy_per_class[gt] += 1
+    # count_per_class[gt] += 1
 
 
-# 已有的编码后的真实标签和预测结果
-# encoded_ground_truth = ...
-# encoded_predicted_results = ...
 
-# 假设 encoded_ground_truth 和 encoded_predicted_results 已经定义
-precision = precision_score(encoded_ground_truth, encoded_predicted_results, average='macro')
-recall = recall_score(encoded_ground_truth, encoded_predicted_results, average='macro')
-f1 = f1_score(encoded_ground_truth, encoded_predicted_results, average='macro')
 
-print(f"Macro Average Precision: {precision}")
-print(f"Macro Average Recall: {recall}")
-print(f"Macro Average F1-Score: {f1}")
+################### Precision, Recall, and F1-score ###########################
+# label_to_int = {label: index for index, label in enumerate(classes)}
+
+# encoded_ground_truth = [label_to_int[label] for label in ground_truth]
+# encoded_predicted_results = [label_to_int[label] for label in pred_labels]
+
+# micro_precision = precision_score(encoded_ground_truth, encoded_predicted_results, average='micro')
+# micro_recall = recall_score(encoded_ground_truth, encoded_predicted_results, average='micro')
+# micro_f1 = f1_score(encoded_ground_truth, encoded_predicted_results, average='micro')
+
+# macro_precision = precision_score(encoded_ground_truth, encoded_predicted_results, average='macro')
+# macro_recall = recall_score(encoded_ground_truth, encoded_predicted_results, average='macro')
+# macro_f1 = f1_score(encoded_ground_truth, encoded_predicted_results, average='macro')
+
+# print(f"Micro Average Precision: {micro_precision:.4f}")
+# print(f"Micro Average Recall: {micro_recall:.4f}")
+# print(f"Micro Average F1-Score: {micro_f1:.4f}")
+# print(f"Macro Average Precision: {macro_precision:.4f}")
+# print(f"Macro Average Recall: {macro_recall:.4f}")
+# print(f"Macro Average F1-Score: {macro_f1:.4f}")
