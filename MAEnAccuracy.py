@@ -1,4 +1,6 @@
 import json
+from sklearn.metrics import classification_report
+from sklearn.metrics import precision_score, recall_score, f1_score
 
 def load_json(file_path):
     with open(file_path, 'r') as file:
@@ -14,7 +16,7 @@ def load_age_epochs(Data, Key_name):
 
 def class_labels():
     classes = [
-        '<1700', 
+        '<1700',
         '1700-1749', 
         '1750-1799', 
         '1800-1819',
@@ -71,14 +73,40 @@ def calculate_accuracy_per_class_and_total(ground_truth, predicted_results, clas
     return accuracy_per_class, total_accuracy
 
 classes = class_labels()
-true_data = load_json("./Building_Attribute.json")['Data']
-pred_result = load_json("./predicted_result.json")
+true_data = load_json("./FIL/Building_Attribute.json")['Data']
+pred_result = load_json("./predicted_result_processed.json")
 ground_truth = load_age_epochs(true_data, "Age Epoch")
 pred_labels = load_age_epochs(pred_result, "age")
 
-print(ground_truth)
-print(pred_labels)
 
-print(calculate_accuracy_per_class_and_total(ground_truth, pred_labels, classes)[0])
-print(calculate_accuracy_per_class_and_total(ground_truth, pred_labels, classes)[1])
 
+label_to_int = {label: index for index, label in enumerate(classes)}
+
+encoded_ground_truth = [label_to_int[label] for label in ground_truth]
+encoded_predicted_results = [label_to_int[label] for label in pred_labels]
+
+
+# report = classification_report(encoded_ground_truth, encoded_predicted_results, labels=range(len(classes)), target_names=classes, zero_division=0, output_dict=True)
+
+# print(report)
+
+
+# for label in classes:
+#     precision = report[label]['precision'] * 100 
+#     recall = report[label]['recall'] * 100 
+#     f1_score = report[label]['f1-score'] * 100 
+#     print(f"{label}&{precision:.2f}&{recall:.2f}&{f1_score:.2f}&0\\\\")
+
+
+# 已有的编码后的真实标签和预测结果
+# encoded_ground_truth = ...
+# encoded_predicted_results = ...
+
+# 假设 encoded_ground_truth 和 encoded_predicted_results 已经定义
+precision = precision_score(encoded_ground_truth, encoded_predicted_results, average='macro')
+recall = recall_score(encoded_ground_truth, encoded_predicted_results, average='macro')
+f1 = f1_score(encoded_ground_truth, encoded_predicted_results, average='macro')
+
+print(f"Macro Average Precision: {precision}")
+print(f"Macro Average Recall: {recall}")
+print(f"Macro Average F1-Score: {f1}")
