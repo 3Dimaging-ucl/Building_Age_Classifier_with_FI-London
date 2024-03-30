@@ -31,16 +31,30 @@ def load_age_epochs(Data, Key_name):
         Age_Epochs.append(i[Key_name])
     return Age_Epochs
 
+def find_illusion(pred_results, classes):
+    for pred in pred_results:
+            if pred['age'] not in classes:
+                print(f"Illusion Result: ID {pred['ID']} with {pred['age']}")
+                print("-" * 40)
 
+def convert_to_mid_year(year_range_str):
+    if ">" in year_range_str:
+        year_range_str = int(year_range_str.replace(">", ""))
+        return int(year_range_str)
+    elif "<" in year_range_str:
+        year_range_str = int(year_range_str.replace("<", ""))
+        return int(year_range_str)
+    else:
+        start_year, end_year = map(int, year_range_str.split('-'))
+        return (start_year + end_year) / 2
 
-classes = class_labels()
-true_data = load_json("./FIL/Building_Attribute.json")['Data']
-pred_result = load_json("./predicted_result_processed.json")
-ground_truth = load_age_epochs(true_data, "Age Epoch")
-pred_labels = load_age_epochs(pred_result, "age")
+def process_illusion(pred_results, classes):
+    wrong_ID = find_illusion(pred_result, classes)
 
-print(ground_truth)
-print(pred_labels)
-for pred in pred_labels:
-    if pred not in classes:
-        print(pred)
+if __name__ == "__main__":
+    classes = class_labels()
+    true_data = load_json("./FIL/Building_Attribute.json")['Data']
+    pred_result = load_json("./predicted_result.json")
+
+    find_illusion(pred_result, classes)
+    

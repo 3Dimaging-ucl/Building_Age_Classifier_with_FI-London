@@ -44,7 +44,6 @@ def convert_to_mid_year(year_range_str):
         start_year, end_year = map(int, year_range_str.split('-'))
         return (start_year + end_year) / 2
 
-
 def calculate_MAE(ground_truth, predicted_results, classes):
     mid_years_ground_truth = [convert_to_mid_year(year_range) for year_range in ground_truth]
     mid_years_predicted_results = [convert_to_mid_year(year_range) for year_range in predicted_results]
@@ -71,7 +70,7 @@ def calculate_F1(ground_truth, predicted_results, classes):
     label_to_int = {label: index for index, label in enumerate(classes)}
 
     encoded_ground_truth = [label_to_int[label] for label in ground_truth]
-    encoded_predicted_results = [label_to_int[label] for label in pred_labels]
+    encoded_predicted_results = [label_to_int[label] for label in predicted_results]
 
     report = classification_report(encoded_ground_truth, encoded_predicted_results, target_names=classes, zero_division=0, output_dict=True)
     micro_f1 = f1_score(encoded_ground_truth, encoded_predicted_results, average='micro')
