@@ -1,5 +1,5 @@
 import argparse
-from BAC import BAC
+from Classifier.BaClassifier import BaClassfier
 
 parser = argparse.ArgumentParser("Building Age Classifier", description="Building Age Claffier using GPT-4 Vision.", add_help=True)
 

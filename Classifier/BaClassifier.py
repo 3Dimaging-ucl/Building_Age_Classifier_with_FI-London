@@ -1,18 +1,21 @@
 import base64
 from openai import OpenAI
 import json
+import os
 
-class BAC:
-    def __int__(self, img_folder, BACmode, OpenAIKey):
-        self.img_folder = img_folder
-        self.BACmode = BACmode
-        self.OpenAIKey = OpenAIKey
+class BaClassfier:
+    def __int__(self, img_path, output_path, img_mode, BaCmode, api_key):
+        self.img_path = img_path
+        self.output_path = output_path
+        self.img_mode = img_mode
+        self.BACmode = BaCmode
+        self.api_key = api_key
 
-    def encode_image(image_path):
-        with open(image_path, "rb") as image_file:
-            return base64.b64encode(image_file.read()).decode('utf-8')
-        
-    def prompt_at5():
+    def encode_img(self, img_path):
+        with open(img_path, "rb") as img_file:
+            return base64.b64encode(img_file.read()).decode('utf-8')
+    
+    def prompt_at5(self):
         text = """
             Your task is to predict the age epoch of a building in London based on the image provided by users.
             
@@ -32,7 +35,7 @@ class BAC:
             """
         return text
 
-    def prompt_at1():
+    def prompt_at1(self):
         text = """
             Your task is to predict the age epoch of a building in London based on the image provided by users.
             
@@ -51,10 +54,16 @@ class BAC:
             - "reason": a concise explanation supporting your prediction. Please do not use line breaks in the reason.
             """
         return text
+    
+    def get_prompt(self):
+        if self.BACmode == 1:
+            return self.prompt_at1()
+        elif self.BACmode == 5:
+            return self.prompt_at5()
 
-    def get_single_query(key, prompt, base64_image):
+    def get_single_query(self, prompt, base64_image):
         client = OpenAI(
-            api_key = key
+            api_key = self.api_key
         )
         response = client.chat.completions.create(
             model="gpt-4-vision-preview",
@@ -78,6 +87,36 @@ class BAC:
             max_tokens=600,
         )
         return response.choices[0]
+
+    def get_single_pred(self, prompt):
+        base64_image = self.encode_image(self.img_path)
+        result = self.get_single_query(prompt, base64_image)
+        json_pred = json.loads(result.message.content)
+        return json_pred
+
+    def get_multiple_pred(self, prompt):
+        result_list = []
+        for img in os.listdir(self.img_path):
+            single_img_path = self.img_path + img
+            base64_image = self.encode_image(single_img_path)
+            result = self.get_single_query(prompt, base64_image)
+            json_pred = json.loads(result.message.content)
+            json_pred['image_name'] = img
+            result_list.append(json_pred)
+        return result_list
+
+    def save_result(self, result_list):
+        with open(self.output_path, 'w') as file:
+            json.dump(result_list, file)
+
+    def Ba_classification(self):
+        prompt = self.get_prompt()
+        if self.img_mode == 'single':
+            result = self.get_single_pred(prompt)
+            self.save_result(result)
+        elif self.img_mode == 'multiple':
+            result_list = self.get_multiple_pred(self.img_path, prompt)
+            self.save_result(result_list)
 
 # if __name__ == "__main__":
 #     key = ""
