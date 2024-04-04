@@ -4,11 +4,11 @@ import json
 import os
 
 class BaClassfier:
-    def __init__(self, img_path, output_path, img_mode, BaCmode, api_key):
+    def __init__(self, img_path, output_path, img_mode, BaC_mode, api_key):
         self.img_path = img_path
         self.output_path = output_path
         self.img_mode = img_mode
-        self.BACmode = BaCmode
+        self.BAC_mode = BaC_mode
         self.api_key = api_key
 
     def encode_img(self, img_path):
@@ -56,9 +56,9 @@ class BaClassfier:
         return text
     
     def get_prompt(self):
-        if self.BACmode == 1:
+        if self.BAC_mode == 1:
             return self.prompt_at1()
-        elif self.BACmode == 5:
+        elif self.BAC_mode == 5:
             return self.prompt_at5()
 
     def get_single_query(self, prompt, base64_image):
