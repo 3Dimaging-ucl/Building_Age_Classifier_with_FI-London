@@ -4,7 +4,7 @@ import json
 import os
 
 class BaClassfier:
-    def __int__(self, img_path, output_path, img_mode, BaCmode, api_key):
+    def __init__(self, img_path, output_path, img_mode, BaCmode, api_key):
         self.img_path = img_path
         self.output_path = output_path
         self.img_mode = img_mode
@@ -89,53 +89,48 @@ class BaClassfier:
         return response.choices[0]
 
     def get_single_pred(self, prompt):
-        base64_image = self.encode_image(self.img_path)
+        base64_image = self.encode_img(self.img_path)
+        print("Image Encoded")
+        print("-" * 30)
         result = self.get_single_query(prompt, base64_image)
+        print("Result Predicted")
+        print("-" * 30)
         json_pred = json.loads(result.message.content)
         return json_pred
 
     def get_multiple_pred(self, prompt):
         result_list = []
+        print("Folder Loaded")
+        print("-" * 30)
         for img in os.listdir(self.img_path):
             single_img_path = self.img_path + img
-            base64_image = self.encode_image(single_img_path)
+            base64_image = self.encode_img(single_img_path)
+            print(f"{img} Image Encoded")
             result = self.get_single_query(prompt, base64_image)
+            print(f"{img} Result Predicted")
             json_pred = json.loads(result.message.content)
             json_pred['image_name'] = img
+            print(f"{img} Result Recorded")
+            print("-" * 30)
             result_list.append(json_pred)
         return result_list
 
     def save_result(self, result_list):
         with open(self.output_path, 'w') as file:
             json.dump(result_list, file)
+        print("Result Saved")
+        print("-" * 30)
 
     def Ba_classification(self):
         prompt = self.get_prompt()
+        print("Prompt:")
+        print(f"{prompt}")
+        print("-" * 30)
+        print(f"Mode: {self.img_mode}")
+        print("-" * 30)
         if self.img_mode == 'single':
             result = self.get_single_pred(prompt)
             self.save_result(result)
         elif self.img_mode == 'multiple':
-            result_list = self.get_multiple_pred(self.img_path, prompt)
+            result_list = self.get_multiple_pred(prompt)
             self.save_result(result_list)
-
-# if __name__ == "__main__":
-#     key = ""
-#     prompt = prompt_at1()
-
-#     json_file_path = './Building_Attribute.json'
-#     with open(json_file_path, 'r') as file:
-#         data = json.load(file)
-#     id_list = [item['ID'] for item in data['Data']]
-
-#     result_save = []
-#     for i in id_list:
-#         image_path = "./Img/"+ str(i) +".jpg"
-#         base64_image = encode_image(image_path)
-#         result = get_single_query(key, prompt, base64_image)
-#         json_data = json.loads(result.message.content)
-#         json_data['ID']=i
-#         result_save.append(json_data)
-#         with open('./predicted_result.json', 'w') as file:
-#             json.dump(result_save, file)
-#         print(i)
-
