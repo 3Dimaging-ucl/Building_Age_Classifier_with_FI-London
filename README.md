@@ -1,9 +1,7 @@
 # Building Age Classifier (Zero-shot) using GPT-4 & Facade Image in London (FI-London) Dataset
 
 ![Static Badge](https://img.shields.io/badge/Paper-arXiv-red) &nbsp;
-![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)
-
-
+[![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/BaC_demo.ipynb)
 
 ## 📋 Table of Contents
 
@@ -11,7 +9,7 @@
 - [Installation](#🛠-installation)
 - [FI-London](#🏢-fi-london)
 - [Demo](#🕹️-demo)
-- [TODO](#🗓️-todo)
+- [TODOs](#🗓️-todos)
 - [License](#📐-license)
 - [Acknowledge](#❤️-acknowledge)
 - [Citation](#📜-citation)
@@ -24,15 +22,91 @@
 
 ## 🛠 Installation
 
+Follow these steps to set up your environment and install the required packages for Building Age Classifier.
+
+### Step 1: Create a Conda Environment
+
+```bash
+conda create -n BaClassifier python=3.8
+conda activate BaClassifier
+```
+
+### Step 2: Install Necessary Packages for Classifier
+
+```bash
+pip install openai==1.2.0
+```
+
+### Step 3: Install Necessary Packages for Evaluation (Optional)
+
+```bash
+pip install sklearn matplotlib seaborn numpy
+```
+
+### Step 4: Install Building Age Classifier and Download FI-London
+
+```bash
+git clone https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London.git
+```
+
 ## 🏢 FI-London
+
+FI-London is now avaiable to reproduce our experiment in our paper or do further test. For a start, you should unzip facade images.
+
+```bash
+unzip ./FI-London/Images.zip
+```
+
+### FI-London Structure:
+
+```
+├─FI-London
+│  ├─Image
+│  │  ├─1.jpg
+│  │  ├─2.jpg
+│  │  ├─...
+│  │  └─131.jpg
+│  └─Building_Attribute.json
+```
+
+### Building Attribute Structure:
+
+```python
+{
+    "Dataset Information": {
+        "Name": "FI-London",
+        "Author": "Zichao Zeng",
+        "Date": "07-01-2024",
+        "Reference": "ZERO-SHOT BUILDING AGE CLASSIFICATION FROM FACADE IMAGE USING GPT-4",
+        "URL": "https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/tree/main/FI-London",
+        "License": "CC BY 4.0"
+    },
+    "Data": [
+        {
+            "ID": 1, # Image ID
+            "Image": "1.jpg", # File name
+            "City": "Brent", # Collect location
+            "Longitude": 51.553552,
+            "Latitude": -0.284703,
+            "Date": "28/12/2023", # Collect date
+            "Creator": "Zichao Zeng", # Creator
+            "Age Epoch": "1920-1939", # Label of building age
+            "Land Use": "Residential (unverified)", # Label of land use
+            "Spefic Use 1": "NaN", # Label of land spefic use
+            "Spefic Use 2": "NaN"
+        },
+    ]
+}
+```
 
 ## 🕹️ Demo
 
-## 🗓️ TODO
+## 🗓️ TODOs
 
-✅ FI-London v1 is released.  
 ✅ Age classifier is realsed.  
 ✅ Age claffication demo is realsed.  
+🔲 FI-London v1 is released.  
+🔲 Paper is published.  
 🔲 Extend data size of FI-London.  
 🔲 Land use classifier is on the way.  
 
@@ -59,3 +133,4 @@ Should our work offer you even the slightest inspiration, we would be most honou
   journal={},
   year={2024}
 }
+```
