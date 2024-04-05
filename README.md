@@ -5,14 +5,14 @@
 
 ## 📋 Table of Contents
 
-- [Highlight](#⭐-highlight)
-- [Installation](#🛠-installation)
-- [FI-London](#🏢-fi-london)
-- [Demo](#🕹️-demo)
-- [TODOs](#🗓️-todos)
-- [License](#📐-license)
-- [Acknowledge](#❤️-acknowledge)
-- [Citation](#📜-citation)
+- [Highlight](#-highlight)
+- [Installation](#-installation)
+- [FI-London](#-fi-london)
+- [Demo](#%EF%B8%8F-demo)
+- [TODOs](#%EF%B8%8F-todos)
+- [License](#-license)
+- [Acknowledge](#%EF%B8%8F-acknowledge)
+- [Citation](#-citation)
 
 ## ⭐ Highlight
 
@@ -49,13 +49,15 @@ pip install sklearn matplotlib seaborn numpy
 git clone https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London.git
 ```
 
-## 🏢 FI-London
+## 🏢 FI-London 
 
 FI-London is now avaiable to reproduce our experiment in our paper or do further test. For a start, you should unzip facade images.
 
 ```bash
 unzip ./FI-London/Images.zip
 ```
+
+The structure of FI-London dataset combining facade images with building attributes has shown below. Building attributes are saved in a json file.
 
 ### FI-London Structure:
 
@@ -100,6 +102,26 @@ unzip ./FI-London/Images.zip
 ```
 
 ## 🕹️ Demo
+
+To demo our zero-shot classifier, we provide three modes (single image test, multiple images test, and FI-London test).
+
+### Single Image Demo
+
+```bash
+python BAC_demo.py ./Test/Image/1.jpg {your openai api key} --output ./Test/Prediction/resutl_single.json --img_mode single --BaC_mode 1
+```
+
+### Multiple Images Demo:
+
+```bash
+python BAC_demo.py ./Test/Image/ {your openai api key} --output ./Test/Prediction/resutl_multiple.json --img_mode multiple --BaC_mode 1
+```
+
+### FI-London Demo:
+
+```bash
+python BAC_demo.py ./FI-London/Image/ {your openai api key} --output ./Result_FI-London/resutl_FI-London.json --img_mode FI-London --BaC_mode 1
+```
 
 ## 🗓️ TODOs
 
