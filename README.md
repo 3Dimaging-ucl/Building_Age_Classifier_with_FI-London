@@ -3,9 +3,14 @@
 ![Static Badge](https://img.shields.io/badge/Paper-arXiv-red) &nbsp;
 [![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/BaC_demo.ipynb)
 
+## ⭐ Highlight
+
+🔥 **Zero-shot Classifier**: Estimate buinding age from facade image without any training!  
+🔥 **Facade Image Dataset**: FI-London combining facade images and building's attributs including builidng age and land use.  
+⚠️ To test our classifier, the paid **OpenAI API Key** to call GPT-4 Vision is required.
+
 ## 📋 Table of Contents
 
-- [Highlight](#-highlight)
 - [Installation](#-installation)
 - [FI-London](#-fi-london)
 - [Demo](#%EF%B8%8F-demo)
@@ -13,12 +18,6 @@
 - [License](#-license)
 - [Acknowledge](#%EF%B8%8F-acknowledge)
 - [Citation](#-citation)
-
-## ⭐ Highlight
-
-🔥 **Zero-shot Classifier**: Estimate buinding age from facade image without any training!  
-🔥 **Facade Image Dataset**: FI-London combining facade images and building's attributs including builidng age and land use.  
-⚠️ To test our classifier, the paid **OpenAI API Key** to call GPT-4 Vision is required.
 
 ## 🛠 Installation
 
@@ -87,15 +86,15 @@ The structure of FI-London dataset combining facade images with building attribu
         {
             "ID": 1, # Image ID
             "Image": "1.jpg", # File name
-            "City": "Brent", # Collect location
-            "Longitude": 51.553552,
-            "Latitude": -0.284703,
+            "City": "Brent", # Collect area
+            "Longitude": 51.553552, # Collect location, 
+            "Latitude": -0.284703, # not the building location
             "Date": "28/12/2023", # Collect date
             "Creator": "Zichao Zeng", # Creator
             "Age Epoch": "1920-1939", # Label of building age
             "Land Use": "Residential (unverified)", # Label of land use
-            "Spefic Use 1": "NaN", # Label of land spefic use
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN", # Label of land specific use
+            "Specific Use 2": "NaN"
         },
     ]
 }
@@ -103,7 +102,7 @@ The structure of FI-London dataset combining facade images with building attribu
 
 ## 🕹️ Demo
 
-To demo our zero-shot classifier, we provide three modes (single image test, multiple images test, and FI-London test).
+To demo our zero-shot classifier, we provide three modes (single image test, multiple images test, and FI-London test). **Input image(s) path**, **output path** of predicted results, **image mode** (single/multiple/FI-London), and **BaC mode** - prompt setting (1/5) are optional. *\*If BaC mode is 5, classifier will provide top 5 most likely age epochs, which we are not recommend to implement.*
 
 ### Single Image Demo
 
@@ -117,7 +116,7 @@ python BAC_demo.py ./Test/Image/1.jpg {your openai api key} --output ./Test/Pred
 python BAC_demo.py ./Test/Image/ {your openai api key} --output ./Test/Prediction/resutl_multiple.json --img_mode multiple --BaC_mode 1
 ```
 
-### FI-London Demo:
+### FI-London Demo (default):
 
 ```bash
 python BAC_demo.py ./FI-London/Image/ {your openai api key} --output ./Result_FI-London/resutl_FI-London.json --img_mode FI-London --BaC_mode 1
@@ -134,7 +133,7 @@ python BAC_demo.py ./FI-London/Image/ {your openai api key} --output ./Result_FI
 
 ## 📐 License
 
-This project is released under MIT licence terms. All data in FI-London and codes of zero-shot classifier are free to download, use and share.
+This project is released under [MIT licence](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/LICENSE) terms. All data in FI-London is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Codes of zero-shot classifier and FI-London are free to download, use and share.
 
 ## ❤️ Acknowledge
 
