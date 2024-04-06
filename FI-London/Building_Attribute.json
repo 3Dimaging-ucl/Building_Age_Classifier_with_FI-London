@@ -1,10 +1,10 @@
 {
     "Dataset Information": {
-        "Name": "HiFiLondon",
+        "Name": "FI-London",
         "Author": "Zichao Zeng",
         "Date": "07-01-2024",
-        "Reference": "Train-free Classifier of Building Age Epoch by Large Vision Language Model",
-        "URL": "",
+        "Reference": "ZERO-SHOT BUILDING AGE CLASSIFICATION FROM FACADE IMAGE USING GPT-4",
+        "URL": "https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/tree/main/FI-London",
         "License": "CC BY 4.0"
     },
     "Data": [
@@ -18,8 +18,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 2,
@@ -31,8 +31,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 3,
@@ -44,8 +44,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 4,
@@ -57,8 +57,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 5,
@@ -70,8 +70,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 6,
@@ -83,8 +83,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": ">2020",
             "Land Use": "Unclassified",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 7,
@@ -96,8 +96,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 8,
@@ -109,8 +109,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 9,
@@ -122,8 +122,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 10,
@@ -135,8 +135,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 11,
@@ -148,8 +148,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 12,
@@ -161,8 +161,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Unclassified",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 13,
@@ -174,8 +174,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": ">2020",
             "Land Use": "Unclassified",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 14,
@@ -187,8 +187,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Unclassified, presumed non-residential",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 15,
@@ -200,8 +200,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Recreation & Leisure",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 16,
@@ -213,8 +213,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 17,
@@ -226,8 +226,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 18,
@@ -239,8 +239,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 19,
@@ -252,8 +252,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 20,
@@ -265,8 +265,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Residential (unverified)",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 21,
@@ -278,8 +278,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 22,
@@ -291,8 +291,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 23,
@@ -304,8 +304,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 24,
@@ -317,8 +317,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Hotels, boarding and guest houses",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Hotels, boarding and guest houses",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 25,
@@ -330,8 +330,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Medical and health care services",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Medical and health care services",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 26,
@@ -343,8 +343,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1840-1859",
             "Land Use": "Community Services",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 27,
@@ -356,8 +356,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Retail",
-            "Spefic Use 1": "Shops",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Shops",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 28,
@@ -369,8 +369,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Recreation & Leisure",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 29,
@@ -382,8 +382,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Offices, Shops",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices, Shops",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 30,
@@ -395,8 +395,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 31,
@@ -408,8 +408,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Hotels, boarding and guest houses",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Hotels, boarding and guest houses",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 32,
@@ -421,8 +421,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Medical and health care services",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Medical and health care services",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 33,
@@ -434,8 +434,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Recreation & Leisure",
-            "Spefic Use 1": "Libraries, museums and galleries",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Libraries, museums and galleries",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 34,
@@ -447,8 +447,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1840-1859",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Places of worship",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Places of worship",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 35,
@@ -460,8 +460,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Community Services",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 36,
@@ -473,8 +473,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Education",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Education",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 37,
@@ -486,8 +486,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1700-1749",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 38,
@@ -499,8 +499,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "<1700",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 39,
@@ -512,8 +512,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Recreation & Leisure",
-            "Spefic Use 1": "Libraries, museums and galleries",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Libraries, museums and galleries",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 40,
@@ -525,8 +525,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Education",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Education",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 41,
@@ -538,8 +538,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 42,
@@ -551,8 +551,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 43,
@@ -564,8 +564,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Hotels, boarding and guest houses",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Hotels, boarding and guest houses",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 44,
@@ -577,8 +577,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1860-1879",
             "Land Use": "Retail",
-            "Spefic Use 1": "Public houses, bars and nightclubs",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Public houses, bars and nightclubs",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 45,
@@ -590,8 +590,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 46,
@@ -603,8 +603,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Hotels, boarding and guest houses",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Hotels, boarding and guest houses",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 47,
@@ -616,8 +616,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Education",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Education",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 48,
@@ -629,8 +629,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 49,
@@ -642,8 +642,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 50,
@@ -655,8 +655,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1840-1859",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 51,
@@ -668,8 +668,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Education",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Education",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 52,
@@ -681,8 +681,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Recreation & Leisure",
-            "Spefic Use 1": "Libraries, museums and galleries",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Libraries, museums and galleries",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 53,
@@ -694,8 +694,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Residential institutions",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Residential institutions",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 54,
@@ -707,8 +707,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Hotels, boarding and guest houses",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Hotels, boarding and guest houses",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 55,
@@ -720,8 +720,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Community Services",
-            "Spefic Use 1": "Education",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Education",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 56,
@@ -733,8 +733,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Hotels, boarding and guest houses",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Hotels, boarding and guest houses",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 57,
@@ -746,8 +746,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Hotels, boarding and guest houses",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Hotels, boarding and guest houses",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 58,
@@ -759,8 +759,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 59,
@@ -772,8 +772,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Education"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Education"
         },
         {
             "ID": 60,
@@ -785,8 +785,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1840-1859",
             "Land Use": "Recreation & Leisure",
-            "Spefic Use 1": "Libraries, museums and galleries",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Libraries, museums and galleries",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 61,
@@ -798,8 +798,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 62,
@@ -811,8 +811,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": ">2020",
             "Land Use": "Unclassified",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 63,
@@ -824,8 +824,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Unclassified, presumed non-residential",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 64,
@@ -837,8 +837,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Unclassified, presumed non-residential",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 65,
@@ -850,8 +850,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 66,
@@ -863,8 +863,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 67,
@@ -876,8 +876,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 68,
@@ -889,8 +889,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Places of worship"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Places of worship"
         },
         {
             "ID": 69,
@@ -902,8 +902,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 70,
@@ -915,8 +915,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 71,
@@ -928,8 +928,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 72,
@@ -941,8 +941,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 73,
@@ -954,8 +954,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 74,
@@ -967,8 +967,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1840-1859",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 75,
@@ -980,8 +980,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 76,
@@ -993,8 +993,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "2000-2019",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 77,
@@ -1006,8 +1006,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 78,
@@ -1019,8 +1019,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1820-1839",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 79,
@@ -1032,8 +1032,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Retail",
-            "Spefic Use 1": "Public houses, bars and nightclubs",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Public houses, bars and nightclubs",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 80,
@@ -1045,8 +1045,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 81,
@@ -1058,8 +1058,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Retail",
-            "Spefic Use 1": "Public houses, bars and nightclubs",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Public houses, bars and nightclubs",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 82,
@@ -1071,8 +1071,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 83,
@@ -1084,8 +1084,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 84,
@@ -1097,8 +1097,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 85,
@@ -1110,8 +1110,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 86,
@@ -1123,8 +1123,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1860-1879",
             "Land Use": "Retail",
-            "Spefic Use 1": "Public houses, bars and nightclubs",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Public houses, bars and nightclubs",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 87,
@@ -1136,8 +1136,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Recreation & Leisure",
-            "Spefic Use 1": "Libraries, museums and galleries",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Libraries, museums and galleries",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 88,
@@ -1149,8 +1149,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1860-1879",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 89,
@@ -1162,8 +1162,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1860-1879",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 90,
@@ -1175,8 +1175,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1700-1749",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 91,
@@ -1188,8 +1188,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1700-1749",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 92,
@@ -1201,8 +1201,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 93,
@@ -1214,8 +1214,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 94,
@@ -1227,8 +1227,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 95,
@@ -1240,8 +1240,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 96,
@@ -1253,8 +1253,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1840-1859",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 97,
@@ -1266,8 +1266,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 98,
@@ -1279,8 +1279,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 99,
@@ -1292,8 +1292,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 100,
@@ -1305,8 +1305,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Residential institutions",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Residential institutions",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 101,
@@ -1318,8 +1318,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 102,
@@ -1331,8 +1331,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 103,
@@ -1344,8 +1344,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1700-1749",
             "Land Use": "Community services",
-            "Spefic Use 1": "NaN",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "NaN",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 104,
@@ -1357,8 +1357,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Community services",
-            "Spefic Use 1": "Medical and health care services",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Medical and health care services",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 105,
@@ -1370,8 +1370,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Community services",
-            "Spefic Use 1": "Medical and health care services",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Medical and health care services",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 106,
@@ -1383,8 +1383,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Residential institutions",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Residential institutions",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 107,
@@ -1396,8 +1396,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 108,
@@ -1409,8 +1409,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1960-1979",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Residential institutions",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Residential institutions",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 109,
@@ -1422,8 +1422,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Community services",
-            "Spefic Use 1": "Medical and health care services",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Medical and health care services",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 110,
@@ -1435,8 +1435,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1900-1919",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 111,
@@ -1448,8 +1448,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1700-1749",
             "Land Use": "Community services",
-            "Spefic Use 1": "Places of worship",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Places of worship",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 112,
@@ -1461,8 +1461,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Retail",
-            "Spefic Use 1": "Public houses, bars and nightclubs",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Public houses, bars and nightclubs",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 113,
@@ -1474,8 +1474,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 114,
@@ -1487,8 +1487,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1700-1749",
             "Land Use": "Community services",
-            "Spefic Use 1": "Education",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Education",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 115,
@@ -1500,8 +1500,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Community services",
-            "Spefic Use 1": "Medical and health care services",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Medical and health care services",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 116,
@@ -1513,8 +1513,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 117,
@@ -1526,8 +1526,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 118,
@@ -1539,8 +1539,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 119,
@@ -1552,8 +1552,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 120,
@@ -1565,8 +1565,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Residential (verified)",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 121,
@@ -1578,8 +1578,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1980-1999",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 122,
@@ -1591,8 +1591,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1940-1959",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 123,
@@ -1604,8 +1604,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1920-1939",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 124,
@@ -1617,8 +1617,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "<1700",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 125,
@@ -1630,8 +1630,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1800-1819",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 126,
@@ -1643,8 +1643,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1880-1899",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 127,
@@ -1656,8 +1656,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "<1700",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 128,
@@ -1669,8 +1669,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1860-1879",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 129,
@@ -1682,8 +1682,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1750-1799",
             "Land Use": "Industry & Business",
-            "Spefic Use 1": "Offices",
-            "Spefic Use 2": "NaN"
+            "Specific Use 1": "Offices",
+            "Specific Use 2": "NaN"
         },
         {
             "ID": 130,
@@ -1695,8 +1695,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1860-1879",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         },
         {
             "ID": 131,
@@ -1708,8 +1708,8 @@
             "Creator": "Zichao Zeng",
             "Age Epoch": "1700-1749",
             "Land Use": "Mixed Use",
-            "Spefic Use 1": "Dwellings",
-            "Spefic Use 2": "Shops"
+            "Specific Use 1": "Dwellings",
+            "Specific Use 2": "Shops"
         }
     ]
 }
