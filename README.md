@@ -50,10 +50,10 @@ git clone https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-Londo
 
 ## 🏢 FI-London 
 
-FI-London is now avaiable to reproduce our experiment in our paper or do further test. For a start, you should unzip facade images.
+FI-London is now avaiable to reproduce our experiment in our paper or do further test. Please download FI-London [here](https://drive.google.com/file/d/1UExnBU5tsEsytUu__xDkQg-aRO62gjcf/view?usp=sharing). For a start, you should unzip facade images.
 
 ```bash
-unzip ./FI-London/Images.zip
+unzip Images.zip -d ./FI-London/
 ```
 
 The structure of FI-London dataset combining facade images with building attributes has shown below. Building attributes are saved in a json file.
