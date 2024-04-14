@@ -1,6 +1,8 @@
 # Building Age Classifier (Zero-shot) using GPT-4 & Facade Image in London (FI-London) Dataset
 
-![Static Badge](https://img.shields.io/badge/Paper-arXiv-red) &nbsp;
+[![Static Badge](https://img.shields.io/badge/Home_Page-purple)]() &nbsp;
+[![Static Badge](https://img.shields.io/badge/Paper-arXiv-red)]() &nbsp;
+[![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)]() &nbsp;
 [![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/BaC_demo.ipynb)
 
 ## ⭐ Highlight
@@ -50,10 +52,10 @@ git clone https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-Londo
 
 ## 🏢 FI-London 
 
-FI-London is now avaiable to reproduce our experiment in our paper or do further test. Please download FI-London [here](https://drive.google.com/file/d/1UExnBU5tsEsytUu__xDkQg-aRO62gjcf/view?usp=sharing). For a start, you should unzip facade images.
+FI-London is now avaiable to reproduce our experiment in our paper or do further test. Please download FI-London [here](). For a start, you should unzip facade images.
 
 ```bash
-unzip Images.zip -d ./FI-London/
+unzip FI-London.zip -d ./
 ```
 
 The structure of FI-London dataset combining facade images with building attributes has shown below. Building attributes are saved in a json file.
