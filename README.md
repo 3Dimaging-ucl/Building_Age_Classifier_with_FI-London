@@ -1,6 +1,6 @@
 # Building Age Classifier (Zero-shot) using GPT-4 & Facade Image in London (FI-London) Dataset
 
-[![Static Badge](https://img.shields.io/badge/Home_Page-purple)]() &nbsp;
+[![Static Badge](https://img.shields.io/badge/Home_Page-purple)](https://zichaozeng.github.io/ba_classifier) &nbsp;
 [![Static Badge](https://img.shields.io/badge/Paper-arXiv-red)]() &nbsp;
 [![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)]() &nbsp;
 [![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/BaC_demo.ipynb)
@@ -81,8 +81,8 @@ The structure of FI-London dataset combining facade images with building attribu
         "Author": "Zichao Zeng",
         "Date": "07-01-2024",
         "Reference": "ZERO-SHOT BUILDING AGE CLASSIFICATION FROM FACADE IMAGE USING GPT-4",
-        "URL": "https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/tree/main/FI-London",
-        "License": "CC BY 4.0"
+        "URL": "https://zichaozeng.github.io/ba_classifier",
+        "License": "CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/deed.en"
     },
     "Data": [
         {
@@ -135,7 +135,7 @@ python BAC_demo.py ./FI-London/Image/ {your openai api key} --output ./Result_FI
 
 ## 📐 License
 
-This project is released under [MIT licence](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/LICENSE) terms. All data in FI-London is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Codes of zero-shot classifier and FI-London are free to download, use and share.
+This project is released under [MIT licence](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/LICENSE) terms. All data in FI-London is released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en). Codes of zero-shot classifier and FI-London are free to download, use and share.
 
 ## ❤️ Acknowledge
 
@@ -147,13 +147,15 @@ We thank for their great works.
 
 ## 📜 Citation
 
-Should our work offer you even the slightest inspiration, we would be most honoured if you chose to cite our paper.
+A preprint will be available soon.
+
+<!-- Should our work offer you even the slightest inspiration, we would be most honoured if you chose to cite our paper.
 
 ```bibtex
 @article{zeng2024zeroshot,
   title={Zero-shot Building Age Classification From Facade Image Using GPT-4},
-  author={Zeng, Zichao and Goo, June Moh and Wang, Xinglei and Chi, Bin and Wang, Meihui and Boehm, Jan and Haworth, James},
+  author={Zeng, Zichao and Goo, June Moh and Wang, Xinglei and Chi, Bin and Wang, Meihui and Boehm, Jan},
   journal={},
   year={2024}
 }
-```
+``` -->
