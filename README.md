@@ -1,9 +1,9 @@
 # Building Age Classifier (Zero-shot) using GPT-4 & Facade Image in London (FI-London) Dataset
 
 [![Static Badge](https://img.shields.io/badge/Home_Page-purple)](https://zichaozeng.github.io/ba_classifier) &nbsp;
-[![Static Badge](https://img.shields.io/badge/Paper-arXiv-red)]() &nbsp;
-[![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)]() &nbsp;
+[![Static Badge](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2404.09921) &nbsp;
 [![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/BaC_demo.ipynb)
+<!-- [![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)]() &nbsp; -->
 
 ## ⭐ Highlight
 
@@ -52,7 +52,10 @@ git clone https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-Londo
 
 ## 🏢 FI-London 
 
-FI-London is now avaiable to reproduce our experiment in our paper or do further test. Please download FI-London [here](). For a start, you should unzip facade images.
+FI-London is now avaiable to reproduce our experiment in our paper or do further test. FI-London will be available soon.
+<!-- Please download FI-London [here]().  -->
+
+For a start, you should unzip facade images.
 
 ```bash
 unzip FI-London.zip -d ./
@@ -128,8 +131,8 @@ python BAC_demo.py ./FI-London/Image/ {your openai api key} --output ./Result_FI
 
 ✅ Age classifier is realsed.  
 ✅ Age claffication demo is realsed.  
+✅ Paper is published.   
 🔲 FI-London v1 is released.  
-🔲 Paper is published.  
 🔲 Extend data size of FI-London.  
 🔲 Land use classifier is on the way.  
 
@@ -147,15 +150,15 @@ We thank for their great works.
 
 ## 📜 Citation
 
-A preprint will be available soon.
-
-<!-- Should our work offer you even the slightest inspiration, we would be most honoured if you chose to cite our paper.
+Should our work offer you even the slightest inspiration, we would be most honoured if you chose to cite our paper.
 
 ```bibtex
-@article{zeng2024zeroshot,
-  title={Zero-shot Building Age Classification From Facade Image Using GPT-4},
-  author={Zeng, Zichao and Goo, June Moh and Wang, Xinglei and Chi, Bin and Wang, Meihui and Boehm, Jan},
-  journal={},
-  year={2024}
+@misc{zeng2024zeroshot,
+      title={Zero-shot Building Age Classification from Facade Image Using GPT-4}, 
+      author={Zichao Zeng and June Moh Goo and Xinglei Wang and Bin Chi and Meihui Wang and Jan Boehm},
+      year={2024},
+      eprint={2404.09921},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
-``` -->
+```
