@@ -1,9 +1,9 @@
 # Building Age Classifier (Zero-shot) using GPT-4 & Facade Image in London (FI-London) Dataset
 
 [![Static Badge](https://img.shields.io/badge/Home_Page-purple)](https://zichaozeng.github.io/ba_classifier) &nbsp;
+[![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)](https://rdr.ucl.ac.uk/articles/dataset/FI-London/25592799) &nbsp;
 [![Static Badge](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2404.09921) &nbsp;
 [![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/BaC_demo.ipynb)
-<!-- [![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)]() &nbsp; -->
 
 ## ⭐ Highlight
 
@@ -52,8 +52,7 @@ git clone https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-Londo
 
 ## 🏢 FI-London 
 
-FI-London is now avaiable to reproduce our experiment in our paper or do further test. FI-London will be available soon.
-<!-- Please download FI-London [here]().  -->
+FI-London is now avaiable to reproduce our experiment in our paper or do further test. FI-London will be available soon. Please download FI-London [here](https://rdr.ucl.ac.uk/articles/dataset/FI-London/25592799). 
 
 For a start, you should unzip facade images.
 
