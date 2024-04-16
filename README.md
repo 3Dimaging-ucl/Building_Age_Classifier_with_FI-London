@@ -153,12 +153,10 @@ We thank for their great works.
 Should our work offer you even the slightest inspiration, we would be most honoured if you chose to cite our paper.
 
 ```bibtex
-@misc{zeng2024zeroshot,
-      title={Zero-shot Building Age Classification from Facade Image Using GPT-4}, 
-      author={Zichao Zeng and June Moh Goo and Xinglei Wang and Bin Chi and Meihui Wang and Jan Boehm},
-      year={2024},
-      eprint={2404.09921},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{zeng2024zeroshot,
+        title={Zero-shot Building Age Classification from Facade Image Using GPT-4},
+        author={Zichao Zeng and June Moh Goo and Xinglei Wang and Bin Chi and Meihui Wang and Jan Boehm},
+        journal={arXiv preprint arXiv:2404.09921},
+        year={2024}
 }
 ```
