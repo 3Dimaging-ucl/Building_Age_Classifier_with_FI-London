@@ -4,6 +4,7 @@ import json
 import os
 
 class BaClassfier:
+    # Initialize the BaClassfier object with the image path, output path, image mode, BaC mode, and OpenAI API key
     def __init__(self, img_path, output_path, img_mode, BaC_mode, api_key):
         self.img_path = img_path
         self.output_path = output_path
@@ -11,10 +12,12 @@ class BaClassfier:
         self.BAC_mode = BaC_mode
         self.api_key = api_key
 
+    # Encode the image to base64 format
     def encode_img(self, img_path):
         with open(img_path, "rb") as img_file:
             return base64.b64encode(img_file.read()).decode('utf-8')
     
+    # Define the prompt for the BaC mode at 5 (output 5 age epochs)
     def prompt_at5(self):
         text = """
             Your task is to predict the age epoch of a building in London based on the image provided by users.
@@ -35,6 +38,7 @@ class BaClassfier:
             """
         return text
 
+    # Define the prompt for the BaC mode at 1 (output 1 age epoch)
     def prompt_at1(self):
         text = """
             Your task is to predict the age epoch of a building in London based on the image provided by users.
@@ -55,12 +59,14 @@ class BaClassfier:
             """
         return text
     
+    # Get the prompt based on the BaC mode
     def get_prompt(self):
         if self.BAC_mode == 1:
             return self.prompt_at1()
         elif self.BAC_mode == 5:
             return self.prompt_at5()
 
+    # Get the single query response
     def get_single_query(self, prompt, base64_image):
         client = OpenAI(
             api_key = self.api_key
@@ -88,6 +94,7 @@ class BaClassfier:
         )
         return response.choices[0]
 
+    # Predict age epochs for a single image
     def get_single_pred(self, prompt):
         base64_image = self.encode_img(self.img_path)
         print("Image Encoded")
@@ -98,6 +105,7 @@ class BaClassfier:
         json_pred = json.loads(result.message.content)
         return json_pred
 
+    # Predict age epochs for multiple images
     def get_multiple_pred(self, prompt):
         result_list = []
         print("Folder Loaded")
@@ -115,12 +123,14 @@ class BaClassfier:
             result_list.append(json_pred)
         return result_list
 
+    # Save the result to the output path
     def save_result(self, result_list):
         with open(self.output_path, 'w') as file:
             json.dump(result_list, file)
         print("Result Saved")
         print("-" * 30)
 
+    # Building Age Classification
     def Ba_classification(self):
         prompt = self.get_prompt()
         print("Prompt:")
