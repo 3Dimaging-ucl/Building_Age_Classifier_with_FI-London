@@ -131,7 +131,7 @@ python BAC_demo.py ./FI-London/Image/ {your openai api key} --output ./Result_FI
 ✅ Age classifier is realsed.  
 ✅ Age claffication demo is realsed.  
 ✅ Paper is published.   
-🔲 FI-London v1 is released.  
+✅ FI-London v1 is released.  
 🔲 Extend data size of FI-London.  
 🔲 Land use classifier is on the way.  
 
