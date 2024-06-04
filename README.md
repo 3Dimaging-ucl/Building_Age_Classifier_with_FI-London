@@ -143,7 +143,7 @@ This project is released under [MIT licence](https://github.com/3Dimaging-ucl/Bu
 
 This zero-shot classifier is based on [GPT-4 Vision](https://platform.openai.com/docs/guides/vision) by OpenAI. 
 
-The Facade Image in London (FI-London) dataset is grounded in [Colourring Cities Research Programme](https://colouringcities.org/) by the Alan Turing Institude and [Colouring London](https://www.researchgate.net/profile/Polly-Hudson/publication/333569102_Colouring_London_-A_Crowdsourcing_Platform_for_Geospatial_Data_Related_to_London's_Building_Stock_Winner_Best_Paper_GISRUK_2019/links/5cf510f2299bf1fb18539112/Colouring-London-A-Crowdsourcing-Platform-for-Geospatial-Data-Related-to-Londons-Building-Stock-Winner-Best-Paper-GISRUK-2019.pdf) by Hudson, P., et al. in 2018.
+The Facade Image in London (FI-London) dataset is grounded in [Colouring Cities Research Programme](https://colouringcities.org/) by the Alan Turing Institude and [Colouring London](https://www.researchgate.net/profile/Polly-Hudson/publication/333569102_Colouring_London_-A_Crowdsourcing_Platform_for_Geospatial_Data_Related_to_London's_Building_Stock_Winner_Best_Paper_GISRUK_2019/links/5cf510f2299bf1fb18539112/Colouring-London-A-Crowdsourcing-Platform-for-Geospatial-Data-Related-to-Londons-Building-Stock-Winner-Best-Paper-GISRUK-2019.pdf) by Hudson, P., et al. in 2018.
 
 We thank for their great works. 
 
