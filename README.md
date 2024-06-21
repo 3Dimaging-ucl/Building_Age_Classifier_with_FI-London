@@ -1,8 +1,9 @@
 # Building Age Classifier (Zero-shot) using GPT-4 & Facade Image in London (FI-London) Dataset
 
 [![Static Badge](https://img.shields.io/badge/Home_Page-purple)](https://zichaozeng.github.io/ba_classifier) &nbsp;
-[![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)](https://rdr.ucl.ac.uk/articles/dataset/FI-London/25592799) &nbsp;
+[![Static Badge](https://img.shields.io/badge/ISPRS%20TC2-red?logo=Paper&label=Paper)](https://isprs-archives.copernicus.org/articles/XLVIII-2-2024/457/2024/isprs-archives-XLVIII-2-2024-457-2024.pdf) &nbsp;
 [![Static Badge](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2404.09921) &nbsp;
+[![Static Badge](https://img.shields.io/badge/Dataset-FI_London-green)](https://rdr.ucl.ac.uk/articles/dataset/FI-London/25592799) &nbsp;
 [![Static Badge](https://img.shields.io/badge/demo-Jupyter%20Notebook-blue)](https://github.com/3Dimaging-ucl/Building_Age_Classifier_with_FI-London/blob/main/BaC_demo.ipynb)
 
 ## ⭐ Highlight
